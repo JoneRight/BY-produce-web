@@ -1,0 +1,21 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "userId":1,
+            "userName":"张三",
+            "userPhone":"15064201100"
+        },
+        {
+            "userId":2,
+            "userName":"李四",
+            "userPhone":"15064201101"
+        },
+        {
+            "userId":3,
+            "userName":"王五",
+            "userPhone":"15064201102"
+        }
+    ]
+}

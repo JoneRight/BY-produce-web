@@ -1,0 +1,606 @@
+[{
+        "menuCode": "HomePage",
+        "menuUrl": "/homePage/list",
+        "menuIcon": "dashboard.png",
+        "note": "仪表盘首页爱写不写"
+    },
+    {
+        "menuCode": "UploadManage",
+        "menuUrl": "/report",
+        "menuIcon": "shangbao.png",
+        "note": "上报管理上报管理上报管理上报管理"
+    },
+    {
+        "menuCode": "UploadFile",
+        "menuUrl": "/report/reportManage",
+        "menuIcon": "ios-list-box-outline",
+        "note": "上报文件上报文件上报文件上报文件"
+    },
+    {
+        "menuCode": "reportMistakeMeassage",
+        "menuUrl": "/report/reportMistakeMessage",
+        "menuIcon": "ios-list-box-outline",
+        "note": "错误列表"
+    },
+    {
+        "menuCode": "hospitalFileSign",
+        "menuUrl": "/report/hospitalFileSign",
+        "menuIcon": "ios-list-box-outline",
+        "note": "标记列表"
+    },
+    {
+        "menuCode": "InsteadUpload",
+        "menuUrl": "/report/replace",
+        "menuIcon": "ios-list-box-outline"
+    },
+    {
+        "menuCode": "UrgeManage",
+        "menuUrl": "/report/urge",
+        "menuIcon": "ios-list-box-outline"
+    },
+    {
+        "menuCode": "HospManage",
+        "menuUrl": "/report/hospital",
+        "menuIcon": "ios-list-box-outline"
+    },
+    {
+        "menuCode": "SampleManage",
+        "menuUrl": "/report/sample",
+        "menuIcon": "ios-list-box-outline"
+    },
+    {
+        "menuCode": "MessageManage",
+        "menuUrl": "/report/massage",
+        "menuIcon": "ios-list-box-outline"
+    },
+    {
+        "menuCode": "ResourceManage",
+        "menuUrl": "/report/resource",
+        "menuIcon": "ios-list-box-outline"
+    },
+
+    {
+        "menuCode": "BusinessManage",
+        "menuUrl": "/business",
+        "menuIcon": "yewu.png"
+    },
+    {
+        "menuCode": "BusinessTaskAll",
+        "menuUrl": "/business/taskAllocation",
+        "menuIcon": "ios-list-box-outline",
+        "note": "分配任务"
+    },
+    {
+        "menuCode": "BusinessOverview",
+        "menuUrl": "/business/overview",
+        "menuIcon": "ios-list-box-outline",
+        "note": "清洗总览"
+    },
+    {
+        "menuCode": "BusinessInitial",
+        "menuUrl": "/business/initialSurvey",
+        "menuIcon": "ios-list-box-outline",
+        "note": "文件初检"
+    },
+    {
+        "menuCode": "BusinessHeader",
+        "menuUrl": "/business/headerMapped",
+        "menuIcon": "ios-list-box-outline",
+        "note": "文件表头"
+    },
+    {
+        "menuCode": "BusinessDuplicate",
+        "menuUrl": "/business/duplicateCheck",
+        "menuIcon": "ios-list-box-outline",
+        "note": "文件查重"
+    },
+    {
+        "menuCode": "BusinessReject",
+        "menuUrl": "/business/reject",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据剔除"
+    },
+    {
+        "menuCode": "BusinessDataCheck",
+        "menuUrl": "/business/dataCheck",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据校验"
+    },
+    {
+        "menuCode": "BusinessDataMapped",
+        "menuUrl": "/business/dataMapped",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据映射"
+    },
+    {
+        "menuCode": "BusinessQuery",
+        "menuUrl": "/business/query",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据质疑"
+    },
+    {
+        "menuCode": "BusinessMutex",
+        "menuUrl": "/business/mutex",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据互斥"
+    },
+    {
+        "menuCode": "BusinessConvert",
+        "menuUrl": "/business/convert",
+        "menuIcon": "ios-list-box-outline",
+        "note": "单位换算"
+    },
+    {
+        "menuCode": "BusinessHistory",
+        "menuUrl": "/business/history",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据总检"
+    },
+    {
+        "menuCode": "RulesManage",
+        "menuUrl": "/rules",
+        "menuIcon": "guizeku.png",
+        "note": "规则管理"
+    },
+    {
+        "menuCode": "RulesBasice",
+        "menuUrl": "/rules/basice",
+        "menuIcon": "ios-list-box-outline",
+        "note": "基础规则"
+    },
+    {
+        "menuCode": "RulesHeader",
+        "menuUrl": "/rules/headerMapping",
+        "menuIcon": "ios-list-box-outline",
+        "note": "表头映射"
+    },
+    {
+        "menuCode": "RulesSpecial",
+        "menuUrl": "/rules/specialChart",
+        "menuIcon": "ios-list-box-outline",
+        "note": "特殊字符"
+    },
+    {
+        "menuCode": "RulesDuplicate",
+        "menuUrl": "/rules/duplicateCheck",
+        "menuIcon": "ios-list-box-outline",
+        "note": "查重规则"
+    },
+    {
+        "menuCode": "RulesReject",
+        "menuUrl": "/rules/reject",
+        "menuIcon": "ios-list-box-outline",
+        "note": "剔除规则"
+    },
+    {
+        "menuCode": "RulesMapped",
+        "menuUrl": "/rules/dataMapped",
+        "menuIcon": "ios-list-box-outline",
+        "note": "映射规则"
+    },
+    {
+        "menuCode": "RulesQuery",
+        "menuUrl": "/rules/query",
+        "menuIcon": "ios-list-box-outline",
+        "note": "质疑规则"
+    },
+    {
+        "menuCode": "RulesMutex",
+        "menuUrl": "/rules/mutex",
+        "menuIcon": "ios-list-box-outline",
+        "note": "互斥规则"
+    },
+    {
+        "menuCode": "RulesConvert",
+        "menuUrl": "/rules/convert",
+        "menuIcon": "ios-list-box-outline",
+        "note": "换算规则"
+    },
+    {
+        "menuCode": "RulesQuality",
+        "menuUrl": "/rules/qualityTest",
+        "menuIcon": "ios-list-box-outline",
+        "note": "质检规则"
+    },
+
+    {
+        "menuCode": "FeedBackManage",
+        "menuUrl": "/feedBack/list",
+        "menuIcon": "fankui.png",
+        "note": "问题反馈"
+    },
+
+    {
+        "menuCode": "ReportFormsManage",
+        "menuUrl": "/reportForms/reportFormsManager",
+        "menuIcon": "tongjizongshu.png",
+        "note": "报表管理"
+    },
+    {
+        "menuCode": "ProductManage",
+        "menuUrl": "/authority/product/list",
+        "menuIcon": "chanpin.png",
+        "note": "产品管理"
+    },
+    {
+        "menuCode": "ProductManageUserProduct",
+        "menuUrl": "/authority/product/userProlist",
+        "menuIcon": "ios-list-box-outline",
+        "note": "用户产品"
+    },
+    {
+        "menuCode": "ProductManageProductManage",
+        "menuUrl": "/authority/product/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据包管理"
+    },
+    {
+        "menuCode": "ProductManageProductRenew",
+        "menuUrl": "/authority/product/renewList",
+        "menuIcon": "ios-list-box-outline",
+        "note": "产品续费"
+    },
+    {
+        "menuCode": "ProductManageProductList",
+        "menuUrl": "/authority/product/plist",
+        "menuIcon": "ios-list-box-outline",
+        "note": "产品管理"
+    },
+    {
+        "menuCode": "ReportManage",
+        "menuUrl": "/reportManager/reportManager",
+        "menuIcon": "fengmian.png",
+        "note": "报告管理"
+    },
+    {
+        "menuCode": "ReportManageStatisticalAnalysis",
+        "menuUrl": "/reportManager/reportManager",
+        "menuIcon": "ios-list-box-outline",
+        "note": "统计分析"
+    },
+    {
+        "menuCode": "ReportManageDataReport",
+        "menuUrl": "/dataReportManage/dataReportManage",
+        "menuIcon": "ios-list-box-outline",
+        "note": "数据报告"
+    },
+
+    {
+        "menuCode": "MappedManage",
+        "menuUrl": "/standard",
+        "menuIcon": "yewucaozuoyingshe.png",
+        "note": "映射标准"
+    },
+    {
+        "menuCode": "MappedInHosp",
+        "menuUrl": "/standard/mapping/inHospital/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "入院情况"
+    },
+    {
+        "menuCode": "MappedDisease",
+        "menuUrl": "/standard/mapping/disease/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "疾病"
+    },
+    {
+        "menuCode": "MappedAdviceType",
+        "menuUrl": "/standard/mapping/adviceType/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "医嘱类型"
+    },
+    {
+        "menuCode": "MappedDoctorTitle",
+        "menuUrl": "/standard/mapping/doctorTitle/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "医生职称"
+    },
+    {
+        "menuCode": "MappedOperation",
+        "menuUrl": "/standard/mapping/operation/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "手术"
+    },
+    {
+        "menuCode": "MappedPathDrugPres",
+        "menuUrl": "/standard/mapping/pathDrugPres/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "临床给药途径"
+    },
+    {
+        "menuCode": "MappedPay",
+        "menuUrl": "/standard/mapping/pay/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "付费方式"
+    },
+    {
+        "menuCode": "MappedOffice",
+        "menuUrl": "/standard/mapping/office/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "科室"
+    },
+    {
+        "menuCode": "MappedAge",
+        "menuUrl": "/standard/mapping/age/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "年龄"
+    },
+    {
+        "menuCode": "MappedSex",
+        "menuUrl": "/standard/mapping/sex/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "性别"
+    },
+    {
+        "menuCode": "MappedCureResult",
+        "menuUrl": "/standard/mapping/cureResult/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "治疗结果"
+    },
+    {
+        "menuCode": "MappedWound",
+        "menuUrl": "/standard/mapping/wound/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "切口"
+    },
+    {
+        "menuCode": "MappedHealing",
+        "menuUrl": "/standard/mapping/healing/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "愈合"
+    },
+    {
+        "menuCode": "MappedDrugs",
+        "menuUrl": "/standard/mapping/drugs/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品"
+    },
+    {
+        "menuCode": "MappedGenericName",
+        "menuUrl": "/standard/mapping/genericName/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "通用名"
+    },
+    {
+        "menuCode": "MappedTradeName",
+        "menuUrl": "/standard/mapping/tradeName/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "商品名"
+    },
+    {
+        "menuCode": "MappedSpec",
+        "menuUrl": "/standard/mapping/spec/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "规格"
+    },
+    {
+        "menuCode": "MappedPackageSpec",
+        "menuUrl": "/standard/mapping/packageSpec/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "包装规格"
+    },
+    {
+        "menuCode": "MappedForm",
+        "menuUrl": "/standard/mapping/form/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "剂型"
+    },
+    {
+        "menuCode": "MappedMedicalCompany",
+        "menuUrl": "/standard/mapping/medicalCompany/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "生产企业"
+    },
+    {
+        "menuCode": "MappedSaleEnterprise",
+        "menuUrl": "/standard/mapping/saleEnterprise/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "批发企业"
+    },
+    {
+        "menuCode": "MappedDrugUse",
+        "menuUrl": "/standard/mapping/drugUse/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "用法"
+    },
+    {
+        "menuCode": "MappedDosage",
+        "menuUrl": "/standard/mapping/dosage/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "剂量"
+    },
+
+
+    {
+        "menuCode": "DictionaryBase",
+        "menuUrl": "/standard",
+        "menuIcon": "changguizidian.png",
+        "note": "字典标准"
+    },
+    {
+        "menuCode": "DictionaryReasonDictionary",
+        "menuUrl": "/standard/dictionary/reasonDictionary/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "系统原因"
+    },
+    {
+        "menuCode": "DictionaryReasonType",
+        "menuUrl": "/standard/dictionary/reasonType/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "系统原因类型"
+    },
+    {
+        "menuCode": "DictionaryEconomicArea",
+        "menuUrl": "/standard/dictionary/economicArea/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "经济区域"
+    },
+    {
+        "menuCode": "DictionaryCity",
+        "menuUrl": "/standard/dictionary/city/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "城市"
+    },
+    {
+        "menuCode": "DictionaryCityGroup",
+        "menuUrl": "/standard/dictionary/cityGroup/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "城市群"
+    },
+    {
+        "menuCode": "DictionaryCityAggRelation",
+        "menuUrl": "/standard/dictionary/cityAggRelation/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "城市群对应城市"
+    },
+    {
+        "menuCode": "DictionaryCompanyBloc",
+        "menuUrl": "/standard/dictionary/companyBloc/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "生产企业集团"
+    },
+    {
+        "menuCode": "DictionaryWholesaleBloc",
+        "menuUrl": "/standard/dictionary/WholesaleBloc/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "批发厂家集团"
+    },
+    {
+        "menuCode": "DictionaryDrugATC",
+        "menuUrl": "/standard/dictionary/drugATC/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "ATC分类"
+    },
+    {
+        "menuCode": "DictionaryDrugSDCC",
+        "menuUrl": "/standard/dictionary/drugSDCC/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "SDCC分类"
+    },
+    {
+        "menuCode": "DictionaryDrugsImport",
+        "menuUrl": "/standard/dictionary/drugsImport/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "进口药品信息"
+    },
+    {
+        "menuCode": "DictionaryInjectionItem",
+        "menuUrl": "/standard/dictionary/injectionItem/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "注射剂配伍禁忌项"
+    },
+    {
+        "menuCode": "DictionaryUnit",
+        "menuUrl": "/standard/dictionary/unit/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "计量单位"
+    },
+    {
+        "menuCode": "DictionaryPathDrug",
+        "menuUrl": "/standard/dictionary/pathDrug/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "给药途径"
+    },
+    {
+        "menuCode": "DictionaryDrugSaltAcid",
+        "menuUrl": "/standard/dictionary/drugSaltAcid/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "盐酸根"
+    },
+    {
+        "menuCode": "DictionaryDrugValidity",
+        "menuUrl": "/standard/dictionary/drugValidity/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品有效期"
+    },
+    {
+        "menuCode": "DictionaryFormDrugPath",
+        "menuUrl": "/standard/dictionary/formDrugPath/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品剂型_给药途径"
+    },
+    {
+        "menuCode": "DictionaryPoinpackCompany",
+        "menuUrl": "/standard/dictionary/poinpackCompany/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "分包装企业"
+    },
+    {
+        "menuCode": "DictionaryDrugCompany",
+        "menuUrl": "/standard/dictionary/drugCompany/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品企业"
+    },
+    {
+        "menuCode": "DictionaryDrugTrade",
+        "menuUrl": "/standard/dictionary/drugTrade/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品商品名"
+    },
+    {
+        "menuCode": "DictionaryDrugType",
+        "menuUrl": "/standard/dictionary/drugType/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品辅助信息"
+    },
+    {
+        "menuCode": "DictionaryUnifiedSpec",
+        "menuUrl": "/standard/dictionary/drugUnifiedSpec/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品统一规格"
+    },
+    {
+        "menuCode": "DictionaryDrugProduct",
+        "menuUrl": "/standard/dictionary/drugProduct/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "药品产品名称"
+    },
+    {
+        "menuCode": "AuthManage",
+        "menuUrl": "/auth",
+        "menuIcon": "quanxian.png",
+        "note": "权限管理"
+    },
+    {
+        "menuCode": "AuthSystemManage",
+        "menuUrl": "/authority/system/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "系统管理"
+    },
+    {
+        "menuCode": "AuthMenuManage",
+        "menuUrl": "/authority/menu/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "菜单管理"
+    },
+    {
+        "menuCode": "AuthUserManage",
+        "menuUrl": "/authority/user/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "用户管理"
+    },
+    {
+        "menuCode": "AuthRoleManage",
+        "menuUrl": "/authority/role/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "角色管理"
+    },
+    {
+        "menuCode": "AuthAuthorityManage",
+        "menuUrl": "/authority/authority/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "权限管理"
+    },
+    {
+        "menuCode": "AuthDeptManager",
+        "menuUrl": "/authority/dept/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "部门管理"
+    },
+    {
+        "menuCode": "AuthBusinessManage",
+        "menuUrl": "/authority/busManager/list",
+        "menuIcon": "ios-list-box-outline",
+        "note": "业务权限"
+    }
+]

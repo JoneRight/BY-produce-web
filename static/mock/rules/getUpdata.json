@@ -1,0 +1,12 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "id": 1,
+        "map_type": "1",
+        "hosp_id": "2",
+        "radioSelect": "T_MAP_AGE",
+        "m_name": "10",
+        "rule_id": "2"
+    }
+}

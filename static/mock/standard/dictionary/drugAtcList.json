@@ -1,0 +1,59 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "atc5": "01",
+                    "atc5name": "阿莫西林",
+                    "atc5english": "A",
+                    "atc4": "",
+                    "atc4name": "",
+                    "atc4english": "",
+                    "atc3": "",
+                    "atc3name": "",
+                    "atc3english": "",
+                    "atc2": "",
+                    "atc2name": "",
+                    "atc2english": "",
+                    "atc1":"",
+                    "atc1name": "",
+                    "atc1english": "",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                },{
+                    "atc5": "01",
+                    "atc5name": "阿莫西林",
+                    "atc5english": "A",
+                    "atc4": "",
+                    "atc4name": "",
+                    "atc4english": "",
+                    "atc3": "",
+                    "atc3name": "",
+                    "atc3english": "",
+                    "atc2": "",
+                    "atc2name": "",
+                    "atc2english": "",
+                    "atc1":"",
+                    "atc1name": "",
+                    "atc1english": "",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                }
+            ]
+        }
+    ]    
+}

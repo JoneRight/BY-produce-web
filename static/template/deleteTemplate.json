@@ -1,0 +1,4 @@
+{
+    "code":1,
+    "message":"删除失败！原因如下： Child module D:\\BigData\\02DevelopmentArea\\04 编码实现\\bigdata-platform\\bigdatalab of D:\\BigData\\02DevelopmentArea\\04 编码实现\bigdata-platform\\pom.xml does not exist\n[ERROR] The build could not read 1 project -> [Help 1]"
+}

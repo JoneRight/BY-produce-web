@@ -1,0 +1,72 @@
+{
+    "dataTypeList": [
+        {
+            "value": 10,
+            "label": "购药"
+        },
+        {
+            "value": 20,
+            "label": "门急诊"
+        },
+        {
+            "value": 30,
+            "label": "病案"
+        },
+        {
+            "value": 40,
+            "label": "医嘱"
+        }
+    ],
+    "ruleStateList": [
+        {
+            "value": 0,
+            "label": "停用"
+        },
+        {
+            "value": 1,
+            "label": "待审核"
+        },
+        {
+            "value": 2,
+            "label": "通过"
+        },
+        {
+            "value": 3,
+            "label": "驳回"
+        }
+    ],
+    "isUpdateTypeList":[
+        {
+            "value": "0",
+            "label": "未修改"
+        },
+        {
+            "value": "1",
+            "label": "已修改"
+        }
+    ],
+    "gradeList":[
+        {
+            "value": 1,
+            "label": "非通用"
+        },
+        {
+            "value": 0,
+            "label": "通用"
+        }
+        
+    ],
+    "duplicateCheck":"duplicateCheck",
+    "initialSurvey":"initialSurvey",
+    "reject":"reject",
+    "dataCheck":"dataCheck",
+    "query":"query",
+    "mutex":"mutex",
+    "mapped":"mapping",
+    "convert":"convert",
+    "discard":"discard",
+    "toclean":"toclean",
+    "skip":"skip",
+    "affirm":"affirm"
+
+}

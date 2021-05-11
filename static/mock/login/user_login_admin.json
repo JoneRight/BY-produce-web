@@ -1,0 +1,32 @@
+{
+	"isSuccess": true,
+	"msg": "响应成功",
+	"code": 200,
+	"result": {
+		"userId": 4,
+		"realName": "管理员",
+		"loginName": "admin",
+		"userType": 1,
+		"userPic": null,
+		"gender": 1,
+		"email": "admin@qq.com",
+		"phone": "13845566655",
+		"studentNo": null,
+		"classId": null,
+		"createTime": null,
+		"updateTime": null,
+		"deleteTime": null,
+		"remark": null,
+		"delFlag": 0,
+		"token": "E00CF25AD42683B3DF678C61F42C6BDA:jiijy284sbr4",
+		"teamCount": null,
+		"usedSource": null,
+		"teamName": null,
+		"url": "/business",
+		"classCount": null,
+		"className": null,
+		"auths": ["dashboardmy", "resourcelist", "resourceadd", "resourcehistory", "resourceapprove", "resourcedetail", "resourceedit", "resourcerecycle", "materialmanagement", "materialadd", "materialdetail", "materialedit", "materialdelete", "teacherlist", "teacheradd", "teacheredit", "teacherpassword", "teacherdelete", "teacherrole", "classlist", "classdetail", "classadd", "classedit", "classdelete", "studentlist", "studentadd", "studentimport", "studentmodule", "studentedit", "studentpassword", "studentdelete", "studentrole", "studentalldelete", "studentallrole", "rolelist", "roleadd", "roleedit", "roledelete", "roleauth", "serverlist", "imagelist", "downloadlist", "downloadadd", "downloadmanager", "downloadedit", "downloaddelete", "downloadtool", "subjectlist", "subjectadd", "subjectedit", "subjectdelete", "courselist", "coursedetail"],
+		"roleList": null,
+		"reportId": null
+	}
+}

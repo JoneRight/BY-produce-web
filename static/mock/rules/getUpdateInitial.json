@@ -1,0 +1,12 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "grade": "1",
+        "hospital": "2",
+        "dataType": [1,2],
+        "initialType": "0",
+        "m_name": "10",
+        "rule_id": "2"
+    }
+}

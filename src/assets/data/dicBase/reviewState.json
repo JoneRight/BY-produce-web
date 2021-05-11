@@ -1,0 +1,56 @@
+{
+    "reviewStateList": [
+        {
+            "value": 0,
+            "label": "停用"
+        },
+        {
+            "value": 1,
+            "label": "待审批"
+        },
+        {
+            "value": 2,
+            "label": "通过"
+        },
+        {
+            "value": 3,
+            "label": "不通过"
+        },
+        {
+            "value": 4,
+            "label": "发布/启用"
+        }
+    ],
+    "dictStateList": [
+        {
+            "value": 1,
+            "label": "待审批"
+        },
+        {
+            "value": 2,
+            "label": "通过"
+        },
+        {
+            "value": 3,
+            "label": "不通过"
+        }
+    ],
+    "feedBackStateList": [
+        {
+            "value": 0,
+            "label": "待处理"
+        },
+        {
+            "value": 1,
+            "label": "已处理"
+        },
+        {
+            "value": 2,
+            "label": "撤销"
+        }
+    ]
+
+
+
+
+}

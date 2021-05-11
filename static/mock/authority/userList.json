@@ -1,0 +1,62 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":1,
+            "totalItemCount":5,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "userId": "1",
+                    "userName": "user1",
+                    "loginName": "A001",
+                    "blocSystem": "业务系统",
+                    "role": "资料员",
+                    "product": "产品1",
+                    "company": "百洋"
+                },
+                {
+                    "userId": "2",
+                    "userName": "user2",
+                    "loginName": "A002",
+                    "blocSystem": "业务系统",
+                    "role": "上报员",
+                    "product": "产品2",
+                    "company": "百洋"
+                },
+                {
+                    "userId": "3",
+                    "userName": "user3",
+                    "loginName": "A003",
+                    "blocSystem": "业务系统",
+                    "role": "质检员",
+                    "product": "产品3",
+                    "company": "百洋"
+                },
+                {
+                    "userId": "4",
+                    "userName": "user4",
+                    "loginName": "A004",
+                    "blocSystem": "业务系统",
+                    "role": "测试角色",
+                    "product": "产品4",
+                    "company": "百洋"
+                },
+                {
+                    "userId": "5",
+                    "userName": "user5",
+                    "loginName": "A005",
+                    "blocSystem": "业务系统",
+                    "role": "业务角色，角色2，角色一",
+                    "product": "产品5",
+                    "company": "百洋"
+                }
+            ]
+        }
+    ]
+}        
+
+
+        

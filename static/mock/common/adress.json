@@ -1,0 +1,45 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "value": "shandong",
+            "label": "山东省",
+            "children": [
+                {
+                    "value": "jinan",
+                    "label": "济南市"
+                },
+                {
+                    "value": "qingdao",
+                    "label": "青岛市"
+                },
+                {
+                    "value": "jining",
+                    "label": "济宁市"
+                }
+            ]
+        },
+        {
+            "value": "hebei",
+            "label": "河北省",
+            "children": [
+                {
+                    "value": "shijiazhuang",
+                    "label": "石家庄市"
+                },
+                {
+                    "value": "zhangjiakou",
+                    "label": "张家口市"
+                },
+                {
+                    "value": "chengde",
+                    "label": "承德市"
+                }
+            ]
+        }
+    ]
+}        
+
+
+        

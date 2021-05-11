@@ -1,0 +1,18 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "value":"T_MAP_SEX",
+            "label":"性别"
+        },
+        {
+            "value":"T_MAP_AGE",
+            "label":"年龄"
+        },
+        {
+            "value":"T_MAP_SECTION",
+            "label":"科室"
+        }
+    ]
+}

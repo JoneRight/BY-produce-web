@@ -1,0 +1,104 @@
+{
+    "radioList": [
+        {
+            "lable": "T_MAP_SEX",
+            "title": "性别"
+        },
+        {
+            "lable": "T_MAP_AGE",
+            "title": "年龄"
+        },
+        {
+            "lable": "T_MAP_SECTION",
+            "title": "科室"
+        },
+        {
+            "lable": "T_MAP_PAYWAY",
+            "title": "付费方式"
+        },
+        {
+            "lable": "T_MAP_DOCTORTITLE",
+            "title": "职称"
+        },
+        {
+            "lable": "T_MAP_DOSE",
+            "title": "剂量"
+        },
+        {
+            "lable": "T_MAP_DIAGNOSIS",
+            "title": "诊断"
+        },
+        {
+            "lable": "T_MAP_PATHDRUG",
+            "title": "给药途径"
+        },
+        {
+            "lable": "T_MAP_USAGE",
+            "title": "用法"
+        },
+        {
+            "lable": "T_MAP_WOUND",
+            "title": "切口"
+        },
+        {
+            "lable": "T_MAP_HEALING",
+            "title": "愈合"
+        },
+        {
+            "lable": "T_MAP_ADMISSION",
+            "title": "入院情况"
+        },
+        {
+            "lable": "T_MAP_ADVICE",
+            "title": "医嘱"
+        },
+        {
+            "lable": "T_MAP_DRUGFORM",
+            "title": "剂型"
+        },
+        {
+            "lable": "T_MAP_MANUFACTURER",
+            "title": "厂家"
+        },
+        {
+            "lable": "T_MAP_OPERATION",
+            "title": "手术编码"
+        },
+        {
+            "lable": "T_MAP_GENERICNAME",
+            "title": "通用名"
+        },
+        {
+            "lable": "T_MAP_TREATMENT_CARD",
+            "title": "就诊号"
+        },
+        {
+            "lable": "T_MAP_TREATRESULT",
+            "title": "治疗结果"
+        },
+        {
+            "lable": "T_MAP_TRADENAME",
+            "title": "商品名称"
+        },
+        {
+            "lable": "T_MAP_MEDICAL_RECORD",
+            "title": "病案号"
+        },
+        {
+            "lable": "T_MAP_SALEENTERPRISE",
+            "title": "批发企业"
+        },
+        {
+            "lable": "T_MAP_DRUGSPEC",
+            "title": "规格(药品)"
+        },
+        {
+            "lable": "T_MAP_PACKAGESPEC",
+            "title": "包装(规格)"
+        },
+        {
+            "lable": "T_MAP_DOCTOR_ID",
+            "title": "工号(医生)"
+        }
+    ]
+}

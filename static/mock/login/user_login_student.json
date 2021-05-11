@@ -1,0 +1,32 @@
+{
+	"isSuccess": true,
+	"msg": "响应成功",
+	"code": 200,
+	"result": {
+		"userId": 11,
+		"realName": "学生10",
+		"loginName": "student",
+		"userType": 3,
+		"userPic": null,
+		"gender": 1,
+		"email": "dato@163.com",
+		"phone": "13856693232",
+		"studentNo": null,
+		"classId": null,
+		"createTime": null,
+		"updateTime": null,
+		"deleteTime": null,
+		"remark": null,
+		"delFlag": 0,
+		"token": "8E4947690532BC44A8E41E9FB365B76A:ex56xii9kg6u",
+		"teamCount": null,
+		"usedSource": null,
+		"teamName": null,
+		"url": "/student",
+		"classCount": null,
+		"className": null,
+		"auths": ["downloadlist", "downloadtool", "clustermy", "mytaskslist", "mytasksdetail", "mytasksreport", "mytasksaddreport", "materialslist", "materialsdetail", "courselist", "coursedetail"],
+		"roleList": null,
+		"reportId": null
+	}
+}

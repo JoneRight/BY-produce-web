@@ -1,0 +1,23 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "name": "映射1",
+                    "memo": "新增"
+                },{
+                    "number": "02",
+                    "name": "映射2",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

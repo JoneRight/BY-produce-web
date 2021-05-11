@@ -1,0 +1,35 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":100,
+            "totalItemCount":1000,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "name": "皮下注射",
+                    "english": "PXZS",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                },{
+                    "number": "02",
+                    "name": "肌肉注射",
+                    "english": "PXZS",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                }
+            ]
+        }
+    ]    
+}

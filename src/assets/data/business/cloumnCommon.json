@@ -1,0 +1,2160 @@
+{
+    "columncommon": [
+        {
+            "title": "医院编号",
+            "key": "hospitalNum",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "医院",
+            "key": "hospitalName",
+            "align": "center",
+            "width": 200
+        },
+        {
+            "title": "省份",
+            "key": "province",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "城市",
+            "key": "city",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "数据类型",
+            "key": "data_Type",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "数据年月",
+            "key": "fileDate",
+            "align": "center",
+            "width": 120
+        }
+    ],
+    "columnGouyao": [
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "databaseFieldName": "drug",
+            "width": 120
+        },
+        {
+            "title": "药品通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "databaseFieldName": "drug_generic_name",
+            "width": 160
+        },
+        {
+            "title": "药品商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "databaseFieldName": "drug_trade_name",
+            "width": 160
+        },
+        {
+            "title": "药品规格",
+            "key": "drugSpec",
+            "align": "center",
+            "databaseFieldName": "drug_spec",
+            "width": 100
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "databaseFieldName": "packing_quantity",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "databaseFieldName": "packing_unit",
+            "width": 100
+        },
+        {
+            "title": "药品剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "databaseFieldName": "drug_formulation",
+            "width": 100
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center",
+            "databaseFieldName": "path_drug",
+            "width": 100
+        },
+        {
+            "title": "购进量",
+            "key": "purchaseVolume",
+            "align": "center",
+            "databaseFieldName": "purchase_volume",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "购药总额",
+            "key": "purchaseAmount",
+            "align": "center",
+            "databaseFieldName": "purchase_amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "药品生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "databaseFieldName": "drug_manufacturers",
+            "width": 160
+        },
+        {
+            "title": "药品批发企业",
+            "key": "drugWholesale",
+            "align": "center",
+            "databaseFieldName": "drug_wholesale",
+            "width": 150
+        },
+        {
+            "title": "本月库存量",
+            "key": "monthInventory",
+            "align": "center",
+            "databaseFieldName": "month_inventory",
+            "width": 110
+        },
+        {
+            "title": "虚拟退货数量",
+            "key": "virtualQuantity",
+            "align": "center",
+            "databaseFieldName": "virtual_quantity",
+            "width": 110
+        }
+
+    ],
+    "columnMenjizhen": [
+        {
+            "title": "就诊卡号",
+            "key": "treatmentCard",
+            "align": "center",
+            "databaseFieldName": "treatment_card",
+            "width": 150
+        },
+        {
+            "title": "医保卡号",
+            "key": "mediInsuranceCard",
+            "align": "center",
+            "databaseFieldName": "medi_insurance_card",
+            "width": 150
+        },
+        {
+            "title": "健康卡号",
+            "key": "healthCard",
+            "align": "center",
+            "databaseFieldName": "health_card",
+            "width": 150
+        },
+        {
+            "title": "性别",
+            "key": "sex",
+            "align": "center",
+            "databaseFieldName": "sex",
+            "width": 80
+        },
+        {
+            "title": "年龄",
+            "key": "age",
+            "align": "center",
+            "databaseFieldName": "age",
+            "width": 80
+        },
+        {
+            "title": "医疗付费方式",
+            "key": "paymentMethod",
+            "align": "center",
+            "databaseFieldName": "payment_method",
+            "width": 150
+        },
+        {
+            "title": "科室名称",
+            "key": "section",
+            "align": "center",
+            "databaseFieldName": "section",
+            "width": 100
+        },
+        {
+            "title": "医师工号",
+            "key": "doctorId",
+            "align": "center",
+            "databaseFieldName": "doctor_id",
+            "width": 100
+        },
+        {
+            "title": "医师职称",
+            "key": "doctorTitle",
+            "align": "center",
+            "databaseFieldName": "doctor_title",
+            "width": 100
+        },
+        {
+            "title": "门诊诊断编码1",
+            "key": "outpatientDiagnostic1",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_1",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断名称1",
+            "key": "outpatientDiagnosticName1",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name_1",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断编码2",
+            "key": "outpatientDiagnostic2",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_2",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断名称2",
+            "key": "outpatientDiagnosticName2",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name_2",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断编码3",
+            "key": "outpatientDiagnostic3",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_3",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断名称3",
+            "key": "outpatientDiagnosticName3",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name_3",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断编码4",
+            "key": "outpatientDiagnostic4",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_4",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断名称4",
+            "key": "outpatientDiagnosticName4",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name_4",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断编码5",
+            "key": "outpatientDiagnostic5",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_5",
+            "width": 150
+        },
+        {
+            "title": "门诊诊断名称5",
+            "key": "outpatientDiagnosticName5",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name_5",
+            "width": 150
+        },
+        {
+            "title": "处方编号",
+            "key": "prescriptionId",
+            "align": "center",
+            "databaseFieldName": "prescription_id",
+            "width": 100
+        },
+        {
+            "title": "处方日期",
+            "key": "prescriptionDate",
+            "align": "center",
+            "databaseFieldName": "prescription_date",
+            "width": 100
+        },
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "databaseFieldName": "drug",
+            "width": 100
+        },
+        {
+            "title": "药品通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "databaseFieldName": "drug_generic_name",
+            "width": 150
+        },
+        {
+            "title": "药品商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "databaseFieldName": "drug_trade_name",
+            "width": 150
+        },
+        {
+            "title": "药品规格",
+            "key": "drugSpec",
+            "align": "center",
+            "databaseFieldName": "drug_spec",
+            "width": 100
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "databaseFieldName": "packing_quantity",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "databaseFieldName": "packing_unit",
+            "width": 100
+        },
+        {
+            "title": "药品剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "databaseFieldName": "drug_formulation",
+            "width": 100
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center",
+            "databaseFieldName": "path_drug",
+            "width": 100
+        },
+        {
+            "title": "药品生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "databaseFieldName": "drug_manufacturers",
+            "width": 150
+        },
+        {
+            "title": "剂量",
+            "key": "dosage",
+            "align": "center",
+            "databaseFieldName": "dosage",
+            "width": 100
+        },
+        {
+            "title": "用法",
+            "key": "usage",
+            "align": "center",
+            "databaseFieldName": "usage",
+            "width": 100
+        },
+        {
+            "title": "数量",
+            "key": "quantity",
+            "align": "center",
+            "databaseFieldName": "quantity",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "药品金额",
+            "key": "amount",
+            "align": "center",
+            "databaseFieldName": "amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "审核药师工号",
+            "key": "pharmacistAuditId",
+            "align": "center",
+            "databaseFieldName": "pharmacist_audit_id",
+            "width": 150
+        },
+        {
+            "title": "调剂药师工号",
+            "key": "pharmacistMakeId",
+            "align": "center",
+            "databaseFieldName": "pharmacist_make_id",
+            "width": 150
+        }
+    ],
+    "columnBingan": [
+        {
+            "title": "病案号",
+            "key": "medicareCard",
+            "align": "center",
+            "databaseFieldName": "medical_record",
+            "width": 150
+        },
+        {
+            "title": "医保卡号",
+            "key": "mediInsuranceCard",
+            "align": "center",
+            "databaseFieldName": "medi_insurance_card",
+            "width": 150
+        },
+        {
+            "title": "健康卡号",
+            "key": "healthCard",
+            "align": "center",
+            "databaseFieldName": "health_card",
+            "width": 150
+        },
+        {
+            "title": "性别",
+            "key": "sex",
+            "align": "center",
+            "databaseFieldName": "sex",
+            "width": 100
+        },
+        {
+            "title": "年龄",
+            "key": "age",
+            "align": "center",
+            "databaseFieldName": "age",
+            "width": 100
+        },
+        {
+            "title": "出生日期",
+            "key": "birthDate",
+            "align": "center",
+            "databaseFieldName": "birth_date",
+            "width": 100
+        },
+        {
+            "title": "婚姻",
+            "key": "maritalStatus",
+            "align": "center",
+            "databaseFieldName": "marital_status",
+            "width": 100
+        },
+        {
+            "title": "职业",
+            "key": "profession",
+            "align": "center",
+            "databaseFieldName": "profession",
+            "width": 100
+        },
+        {
+            "title": "民族",
+            "key": "national",
+            "align": "center",
+            "databaseFieldName": "national",
+            "width": 100
+        },
+        {
+            "title": "第N次住院",
+            "key": "hospitalTimes",
+            "align": "center",
+            "databaseFieldName": "hospital_times",
+            "width": 100
+        },
+        {
+            "title": "医疗付费方式",
+            "key": "paymentMethod",
+            "align": "center",
+            "databaseFieldName": "payment_method",
+            "width": 150
+        },
+        {
+            "title": "年龄（月，不足1周岁）",
+            "key": "ageMnoth",
+            "align": "center",
+            "databaseFieldName": "age_mnoth",
+            "width": 100
+        },
+        {
+            "title": "新生儿出生体重",
+            "key": "birthWeight",
+            "align": "center",
+            "databaseFieldName": "birth_weight",
+            "width": 100
+        },
+        {
+            "title": "新生儿入院体重",
+            "key": "birthAdmissionWeight ",
+            "align": "center",
+            "databaseFieldName": "birth_admission_weight ",
+            "width": 100
+        },
+        {
+            "title": "入院时间",
+            "key": "admissionDate",
+            "align": "center",
+            "databaseFieldName": "admission_date",
+            "width": 100
+        },
+        {
+            "title": "入院科别",
+            "key": "admissionSection",
+            "align": "center",
+            "databaseFieldName": "admission_section",
+            "width": 100
+        },
+        {
+            "title": "（入院科别）病房",
+            "key": "admissionSectionRoomCard",
+            "align": "center",
+            "databaseFieldName": "admission_section_room_card",
+            "width": 100
+        },
+        {
+            "title": "转科科别",
+            "key": "transferSection",
+            "align": "center",
+            "databaseFieldName": "transfer_section",
+            "width": 100
+        },
+        {
+            "title": "入院途径",
+            "key": "admissionPath",
+            "align": "center",
+            "databaseFieldName": "admission_path",
+            "width": 100
+        },
+        {
+            "title": "门（急）诊诊断",
+            "key": "outpatientDiagnosticName1",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic_name1",
+            "width": 100
+        },
+        {
+            "title": "（门（急）诊诊断）疾病编码",
+            "key": "outpatientDiagnostic1",
+            "align": "center",
+            "databaseFieldName": "outpatient_diagnostic1",
+            "width": 100
+        },
+        {
+            "title": "入院病情",
+            "key": "admissionOf",
+            "align": "center",
+            "databaseFieldName": "admission_of",
+            "width": 150
+        },
+        {
+            "title": "入院诊断编码",
+            "key": "admissionDiagnosis",
+            "align": "center",
+            "databaseFieldName": "admission_diagnosis",
+            "width": 150
+        },
+        {
+            "title": "入院诊断名称",
+            "key": "admissionDiagnosisName",
+            "align": "center",
+            "databaseFieldName": "admission_diagnosis_name",
+            "width": 150
+        },
+        {
+            "title": "入院后确诊日期",
+            "key": "confirmDate",
+            "align": "center",
+            "databaseFieldName": "confirm_date",
+            "width": 150
+        },
+        {
+            "title": "出院时间",
+            "key": "dischargeDate",
+            "align": "center",
+            "databaseFieldName": "discharge_date",
+            "width": 150
+        },
+        {
+            "title": "出院科别",
+            "key": "dischargeSection",
+            "align": "center",
+            "databaseFieldName": "discharge_section",
+            "width": 150
+        },
+        {
+            "title": "（出院科别）病房",
+            "key": "dischargeSectionRoomCard",
+            "align": "center",
+            "databaseFieldName": "discharge_section_room_card",
+            "width": 150
+        },
+        {
+            "title": "实际住院N天",
+            "key": "hospitalDays",
+            "align": "center",
+            "databaseFieldName": "hospital_days",
+            "width": 150
+        },
+        {
+            "title": "（病理诊断）疾病编码",
+            "key": "pathology",
+            "align": "center",
+            "databaseFieldName": "pathology",
+            "width": 150
+        },
+        {
+            "title": "病理诊断名称",
+            "key": "pathologyName",
+            "align": "center",
+            "databaseFieldName": "pathology_name",
+            "width": 150
+        },
+        {
+            "title": "损伤、中毒的外部原因",
+            "key": "damagePoisoningOutsideReasons",
+            "align": "center",
+            "databaseFieldName": "damage_poisoning_outside_reasons",
+            "width": 150
+        },
+        {
+            "title": "（损伤、中毒的外部原因）疾病编码",
+            "key": "damagePoisoningOutsideDiagnostic",
+            "align": "center",
+            "databaseFieldName": "damage_poisoning_outside_diagnostic",
+            "width": 150
+        },
+        {
+            "title": "（主要诊断）入院病情",
+            "key": "admissionDiagnostic",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic",
+            "width": 150
+        },
+        {
+            "title": "出院主要诊断编码",
+            "key": "dischargeDiagnosis",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码1",
+            "key": "dischargeDiagnosis1",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_1",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码2",
+            "key": "dischargeDiagnosis2",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_2",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码3",
+            "key": "dischargeDiagnosis3",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_3",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码4",
+            "key": "dischargeDiagnosis4",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_4",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码5",
+            "key": "dischargeDiagnosis5",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_5",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码6",
+            "key": "dischargeDiagnosis6",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_6",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码7",
+            "key": "dischargeDiagnosis7",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_7",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码8",
+            "key": "dischargeDiagnosis8",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_8",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码9",
+            "key": "dischargeDiagnosis9",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_9",
+            "width": 150
+        },
+        {
+            "title": "出院其他诊断编码10",
+            "key": "dischargeDiagnosis10",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_10",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码11",
+            "key": "dischargeDiagnosis11",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_11",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码12",
+            "key": "dischargeDiagnosis12",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_12",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码13",
+            "key": "dischargeDiagnosis13",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_13",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码14",
+            "key": "dischargeDiagnosis14",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_14",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码15",
+            "key": "dischargeDiagnosis15",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_15",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码16",
+            "key": "dischargeDiagnosis16",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_16",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码17",
+            "key": "dischargeDiagnosis17",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_17",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码18",
+            "key": "dischargeDiagnosis18",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_18",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码19",
+            "key": "dischargeDiagnosis19",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_19",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码20",
+            "key": "dischargeDiagnosis20",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_20",
+            "width": 160
+        },
+        {
+            "title": "出院其他诊断编码21",
+            "key": "dischargeDiagnosis21",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_21",
+            "width": 160
+        },
+        {
+            "title": "出院诊断名称",
+            "key": "dischargeDiagnosisName",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称1",
+            "key": "dischargeDiagnosisName1",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_1",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称2",
+            "key": "dischargeDiagnosisName2",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_2",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称3",
+            "key": "dischargeDiagnosisName3",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_3",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称4",
+            "key": "dischargeDiagnosisName4",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_4",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称5",
+            "key": "dischargeDiagnosisName5",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_5",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称6",
+            "key": "dischargeDiagnosisName6",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_6",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称7",
+            "key": "dischargeDiagnosisName7",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_7",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称8",
+            "key": "dischargeDiagnosisName8",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_8",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称9",
+            "key": "dischargeDiagnosisName9",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_9",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称10",
+            "key": "dischargeDiagnosisName10",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_10",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称11",
+            "key": "dischargeDiagnosisName11",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_11",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称12",
+            "key": "dischargeDiagnosisName12",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_12",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称13",
+            "key": "dischargeDiagnosisName13",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_13",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称14",
+            "key": "dischargeDiagnosisName14",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_14",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称15",
+            "key": "dischargeDiagnosisName15",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_15",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称16",
+            "key": "dischargeDiagnosisName16",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_16",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称17",
+            "key": "dischargeDiagnosisName17",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_17",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称18",
+            "key": "dischargeDiagnosisName18",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_18",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称19",
+            "key": "dischargeDiagnosisName19",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_19",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称20",
+            "key": "dischargeDiagnosisName20",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_20",
+            "width": 150
+        },
+        {
+            "title": "出院诊断名称21",
+            "key": "dischargeDiagnosisName21",
+            "align": "center",
+            "databaseFieldName": "discharge_diagnosis_name_21",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情1",
+            "key": "admissionDiagnostic1",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic1",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情2",
+            "key": "admissionDiagnostic2",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic2",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情3",
+            "key": "admissionDiagnostic3",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic3",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情4",
+            "key": "admissionDiagnostic4",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic4",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情5",
+            "key": "admissionDiagnostic5",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic5",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情6",
+            "key": "admissionDiagnostic6",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic6",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情7",
+            "key": "admissionDiagnostic7",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic7",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情8",
+            "key": "admissionDiagnostic8",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic8",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情9",
+            "key": "admissionDiagnostic9",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic9",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情10",
+            "key": "admissionDiagnostic10",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic10",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情11",
+            "key": "admissionDiagnostic11",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic11",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情12",
+            "key": "admissionDiagnostic12",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic12",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情13",
+            "key": "admissionDiagnostic13",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic13",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情14",
+            "key": "admissionDiagnostic14",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic14",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情15",
+            "key": "admissionDiagnostic15",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic15",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情16",
+            "key": "admissionDiagnostic16",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic16",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情17",
+            "key": "admissionDiagnostic17",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic17",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情18",
+            "key": "admissionDiagnostic18",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic18",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情19",
+            "key": "admissionDiagnostic19",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic19",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情20",
+            "key": "admissionDiagnostic20",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic20",
+            "width": 150
+        },
+        {
+            "title": "（其他诊断）入院病情21",
+            "key": "admissionDiagnostic21",
+            "align": "center",
+            "databaseFieldName": "admission_diagnostic21",
+            "width": 150
+        },
+        {
+            "title": "主要诊断治疗好转情况",
+            "key": "diagnosticImprovement",
+            "align": "center",
+            "databaseFieldName": "diagnostic_improvement",
+            "width": 150
+        },
+        {
+            "title": "诊断符合情况",
+            "key": "diagnosticCompliance",
+            "align": "center",
+            "databaseFieldName": "diagnostic_compliance",
+            "width": 150
+        },
+        {
+            "title": "离院方式",
+            "key": "leaveHospMethod",
+            "align": "center",
+            "databaseFieldName": "leave_hosp_method",
+            "width": 150
+        },
+        {
+            "title": "是否有出院31天内再住院计划",
+            "key": "isPlanRehosp31Days",
+            "align": "center",
+            "databaseFieldName": "is_plan_rehosp_31Days",
+            "width": 150
+        },
+        {
+            "title": "颅脑损伤患者昏迷时间（入院前）",
+            "key": "beforhospCraniocerebraComatime",
+            "align": "center",
+            "databaseFieldName": "beforhosp_craniocerebra_comatime",
+            "width": 150
+        },
+        {
+            "title": "颅脑损伤患者昏迷时间（入院后）",
+            "key": "afterhospCraniocerebraComatime",
+            "align": "center",
+            "databaseFieldName": "afterhosp_craniocerebra_comatime",
+            "width": 150
+        },
+        {
+            "title": "手术及操作编码1",
+            "key": "operation1",
+            "align": "center",
+            "databaseFieldName": "operation_1",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码2",
+            "key": "operation2",
+            "align": "center",
+            "databaseFieldName": "operation_2",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码3",
+            "key": "operation3",
+            "align": "center",
+            "databaseFieldName": "operation_3",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码4",
+            "key": "operation4",
+            "align": "center",
+            "databaseFieldName": "operation_4",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码5",
+            "key": "operation5",
+            "align": "center",
+            "databaseFieldName": "operation_5",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码6",
+            "key": "operation6",
+            "align": "center",
+            "databaseFieldName": "operation_6",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码7",
+            "key": "operation7",
+            "align": "center",
+            "databaseFieldName": "operation_7",
+            "width": 110
+        },
+        {
+            "title": "手术及操作编码8",
+            "key": "operation8",
+            "align": "center",
+            "databaseFieldName": "operation_8",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期1",
+            "key": "operationDate1",
+            "align": "center",
+            "databaseFieldName": "operation_date_1",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期2",
+            "key": "operationDate2",
+            "align": "center",
+            "databaseFieldName": "operation_date_2",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期3",
+            "key": "operationDate3",
+            "align": "center",
+            "databaseFieldName": "operation_date_3",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期4",
+            "key": "operationDate4",
+            "align": "center",
+            "databaseFieldName": "operation_date_4",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期5",
+            "key": "operationDate5",
+            "align": "center",
+            "databaseFieldName": "operation_date_5",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期6",
+            "key": "operationDate6",
+            "align": "center",
+            "databaseFieldName": "operation_date_6",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期7",
+            "key": "operationDate7",
+            "align": "center",
+            "databaseFieldName": "operation_date_7",
+            "width": 110
+        },
+        {
+            "title": "手术及操作日期8",
+            "key": "operationDate8",
+            "align": "center",
+            "databaseFieldName": "operation_date_8",
+            "width": 110
+        },
+        {
+            "title": "切口1",
+            "key": "wound1",
+            "align": "center",
+            "databaseFieldName": "wound_1",
+            "width": 100
+        },
+        {
+            "title": "切口2",
+            "key": "wound2",
+            "align": "center",
+            "databaseFieldName": "wound_2",
+            "width": 100
+        },
+        {
+            "title": "切口3",
+            "key": "wound3",
+            "align": "center",
+            "databaseFieldName": "wound_3",
+            "width": 100
+        },
+        {
+            "title": "切口4",
+            "key": "wound4",
+            "align": "center",
+            "databaseFieldName": "wound_4",
+            "width": 100
+        },
+        {
+            "title": "切口5",
+            "key": "wound5",
+            "align": "center",
+            "databaseFieldName": "wound_5",
+            "width": 100
+        },
+        {
+            "title": "切口6",
+            "key": "wound6",
+            "align": "center",
+            "databaseFieldName": "wound_6",
+            "width": 100
+        },
+        {
+            "title": "切口7",
+            "key": "wound7",
+            "align": "center",
+            "databaseFieldName": "wound_7",
+            "width": 100
+        },
+        {
+            "title": "切口8",
+            "key": "wound8",
+            "align": "center",
+            "databaseFieldName": "wound_8",
+            "width": 100
+        },
+        {
+            "title": "愈合1",
+            "key": "healing1",
+            "align": "center",
+            "databaseFieldName": "healing_1",
+            "width": 100
+        },
+        {
+            "title": "愈合2",
+            "key": "healing2",
+            "align": "center",
+            "databaseFieldName": "healing_2",
+            "width": 100
+        },
+        {
+            "title": "愈合3",
+            "key": "healing3",
+            "align": "center",
+            "databaseFieldName": "healing_3",
+            "width": 100
+        },
+        {
+            "title": "愈合4",
+            "key": "healing4",
+            "align": "center",
+            "databaseFieldName": "healing_4",
+            "width": 100
+        },
+        {
+            "title": "愈合5",
+            "key": "healing5",
+            "align": "center",
+            "databaseFieldName": "healing_5",
+            "width": 100
+        },
+        {
+            "title": "愈合6",
+            "key": "healing6",
+            "align": "center",
+            "databaseFieldName": "healing_6",
+            "width": 100
+        },
+        {
+            "title": "愈合7",
+            "key": "healing7",
+            "align": "center",
+            "databaseFieldName": "healing_7",
+            "width": 100
+        },
+        {
+            "title": "愈合8",
+            "key": "healing8",
+            "align": "center",
+            "databaseFieldName": "healing_8",
+            "width": 100
+        },
+        {
+            "title": "手术及操作名称1",
+            "key": "operationName1",
+            "align": "center",
+            "databaseFieldName": "operation_name_1",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称2",
+            "key": "operationName2",
+            "align": "center",
+            "databaseFieldName": "operation_name_2",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称3",
+            "key": "operationName3",
+            "align": "center",
+            "databaseFieldName": "operation_name_3",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称4",
+            "key": "operationName4",
+            "align": "center",
+            "databaseFieldName": "operation_name_4",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称5",
+            "key": "operationName5",
+            "align": "center",
+            "databaseFieldName": "operation_name_5",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称6",
+            "key": "operationName6",
+            "align": "center",
+            "databaseFieldName": "operation_name_6",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称7",
+            "key": "operationName7",
+            "align": "center",
+            "databaseFieldName": "operation_name_7",
+            "width": 150
+        },
+        {
+            "title": "手术及操作名称8",
+            "key": "operationName8",
+            "align": "center",
+            "databaseFieldName": "operation_name_8",
+            "width": 150
+        },
+        {
+            "title": "手术级别1",
+            "key": "operationLevel1",
+            "align": "center",
+            "databaseFieldName": "operation_level_1",
+            "width": 150
+        },
+        {
+            "title": "手术级别2",
+            "key": "operationLevel2",
+            "align": "center",
+            "databaseFieldName": "operation_level_2",
+            "width": 150
+        },
+        {
+            "title": "手术级别3",
+            "key": "operationLevel3",
+            "align": "center",
+            "databaseFieldName": "operation_level_3",
+            "width": 150
+        },
+        {
+            "title": "手术级别4",
+            "key": "operationLevel4",
+            "align": "center",
+            "databaseFieldName": "operation_level_4",
+            "width": 150
+        },
+        {
+            "title": "手术级别5",
+            "key": "operationLevel5",
+            "align": "center",
+            "databaseFieldName": "operation_level_5",
+            "width": 150
+        },
+        {
+            "title": "手术级别6",
+            "key": "operationLevel6",
+            "align": "center",
+            "databaseFieldName": "operation_level_6",
+            "width": 150
+        },
+        {
+            "title": "手术级别7",
+            "key": "operationLevel7",
+            "align": "center",
+            "databaseFieldName": "operation_level_7",
+            "width": 150
+        },
+        {
+            "title": "手术级别8",
+            "key": "operationLevel8",
+            "align": "center",
+            "databaseFieldName": "operation_level_8",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者1",
+            "key": "operators1",
+            "align": "center",
+            "databaseFieldName": "operators1",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者2",
+            "key": "operators2",
+            "align": "center",
+            "databaseFieldName": "operators2",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者3",
+            "key": "operators3",
+            "align": "center",
+            "databaseFieldName": "operators3",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者4",
+            "key": "operators4",
+            "align": "center",
+            "databaseFieldName": "operators4",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者5",
+            "key": "operators5",
+            "align": "center",
+            "databaseFieldName": "operators5",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者6",
+            "key": "operators6",
+            "align": "center",
+            "databaseFieldName": "operators6",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者7",
+            "key": "operators7",
+            "align": "center",
+            "databaseFieldName": "operators7",
+            "width": 150
+        },
+        {
+            "title": "手术及操作医师-术者8",
+            "key": "operators8",
+            "align": "center",
+            "databaseFieldName": "operators8",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式1",
+            "key": "anesthesiaMethod1",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method1",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式2",
+            "key": "anesthesiaMethod1",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method2",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式3",
+            "key": "anesthesiaMethod3",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method3",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式4",
+            "key": "anesthesiaMethod4",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method4",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式5",
+            "key": "anesthesiaMethod5",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method5",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式6",
+            "key": "anesthesiaMethod6",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method6",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式7",
+            "key": "anesthesiaMethod7",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method7",
+            "width": 150
+        },
+        {
+            "title": "麻醉方式8",
+            "key": "anesthesiaMethod8",
+            "align": "center",
+            "databaseFieldName": "anesthesia_method8",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师1",
+            "key": "anesthesiologist1",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist1",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师2",
+            "key": "anesthesiologist2",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist2",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师3",
+            "key": "anesthesiologist3",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist3",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师4",
+            "key": "anesthesiologist4",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist4",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师5",
+            "key": "anesthesiologist5",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist5",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师6",
+            "key": "anesthesiologist6",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist6",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师7",
+            "key": "anesthesiologist7",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist7",
+            "width": 150
+        },
+        {
+            "title": "麻醉医师8",
+            "key": "anesthesiologist8",
+            "align": "center",
+            "databaseFieldName": "anesthesiologist8",
+            "width": 150
+        },
+        {
+            "title": "医院感染编码",
+            "key": "hospitalInfection",
+            "align": "center",
+            "databaseFieldName": "hospital_infection",
+            "width": 150
+        },
+        {
+            "title": "医院感染名称",
+            "key": "hospitalInfectionName",
+            "align": "center",
+            "databaseFieldName": "hospital_infection_name",
+            "width": 150
+        },
+        {
+            "title": "医院感染治疗结果",
+            "key": "treatmentResultInfect",
+            "align": "center",
+            "databaseFieldName": "treatment_result_infect",
+            "width": 150
+        },
+        {
+            "title": "抢救次数",
+            "key": "rescueTimes",
+            "databaseFieldName": "rescue_times",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "抢救成功次数",
+            "key": "rescueSuccessTimes",
+            "databaseFieldName": "rescue_success_times",
+            "align": "center",
+            "width": 150
+        },
+        {
+            "title": "总费用",
+            "key": "totalCosts",
+            "align": "center",
+            "databaseFieldName": "total_costs",
+            "width": 150
+        },
+        {
+            "title": "自付金额",
+            "key": "selfAmount",
+            "align": "center",
+            "databaseFieldName": "self_amount",
+            "width": 150
+        },
+        {
+            "title": "床位费",
+            "key": "bedFees",
+            "align": "center",
+            "databaseFieldName": "bed_fees",
+            "width": 100
+        },
+        {
+            "title": "一般医疗服务费",
+            "key": "generaMedicalServiceFees",
+            "align": "center",
+            "databaseFieldName": "general_medical_service_fees",
+            "width": 100
+        },
+        {
+            "title": "一般治疗操作费",
+            "key": "generaOpeartionFees",
+            "align": "center",
+            "databaseFieldName": "general_operation_fees",
+            "width": 100
+        },
+        {
+            "title": "护理费",
+            "key": "nurseFees",
+            "align": "center",
+            "databaseFieldName": "nurse_fees",
+            "width": 100
+        },
+        {
+            "title": "其他费用",
+            "key": "comprehensiveServiceOtherFees",
+            "align": "center",
+            "databaseFieldName": "comprehensive_service_other_fees",
+            "width": 100
+        },
+        {
+            "title": "西药费",
+            "key": "medicineFees",
+            "align": "center",
+            "databaseFieldName": "medicine_fees",
+            "width": 100
+        },
+        {
+            "title": "中成药费",
+            "key": "pcmFees",
+            "align": "center",
+            "databaseFieldName": "pcm_fees",
+            "width": 100
+        },
+        {
+            "title": "中草药费",
+            "key": "herbsFees",
+            "align": "center",
+            "databaseFieldName": "herbs_fees",
+            "width": 100
+        },
+        {
+            "title": "放射费",
+            "key": "radiationFees",
+            "align": "center",
+            "databaseFieldName": "radiation_fees",
+            "width": 100
+        },
+        {
+            "title": "病理诊断费",
+            "key": "pathologicalDiagnosisFees",
+            "align": "center",
+            "databaseFieldName": "pathological_diagnosis_fees",
+            "width": 100
+        },
+        {
+            "title": "实验室诊断费",
+            "key": "laboratoryDiagnosisFees",
+            "align": "center",
+            "databaseFieldName": "laboratory_diagnosis_fees",
+            "width": 100
+        },
+        {
+            "title": "影像学诊断费",
+            "key": "imagingDiagnosisFees",
+            "align": "center",
+            "databaseFieldName": "imaging_diagnosis_fees",
+            "width": 100
+        },
+        {
+            "title": "临床诊断项目费",
+            "key": "clinicalDiagnosisFees",
+            "align": "center",
+            "databaseFieldName": "clinical_diagnosis_fees",
+            "width": 100
+        },
+        {
+            "title": "化验费",
+            "key": "laboratoryFees",
+            "align": "center",
+            "databaseFieldName": "laboratory_fees",
+            "width": 100
+        },
+        {
+            "title": "输氧费",
+            "key": "oxygenFees",
+            "align": "center",
+            "databaseFieldName": "oxygen_fees",
+            "width": 100
+        },
+        {
+            "title": "血费",
+            "key": "transfusionFees",
+            "align": "center",
+            "databaseFieldName": "transfusion_fees",
+            "width": 100
+        },
+        {
+            "title": "（手术治疗费中包括的）手术费",
+            "key": "opetationFees",
+            "align": "center",
+            "databaseFieldName": "opetation_fees",
+            "width": 150
+        },
+        {
+            "title": "检查费",
+            "key": "inspectionFees",
+            "align": "center",
+            "databaseFieldName": "inspection_fees",
+            "width": 100
+        },
+        {
+            "title": "（手术治疗费中包括的）麻醉费",
+            "key": "anesthesiaFees",
+            "align": "center",
+            "databaseFieldName": "anesthesia_fees",
+            "width": 100
+        },
+        {
+            "title": "治疗费",
+            "key": "treatmentFees",
+            "align": "center",
+            "databaseFieldName": "treatment_fees",
+            "width": 100
+        },
+        {
+            "title": "非手术治疗项目费",
+            "key": "nonoprationFees",
+            "align": "center",
+            "databaseFieldName": "nonopration_fees",
+            "width": 100
+        },
+        {
+            "title": "（非手术治疗项目费中包括的）临床物理治疗费",
+            "key": "clinicalPhysicaltherapyFees",
+            "align": "center",
+            "databaseFieldName": "clinical_physicaltherapy_fees",
+            "width": 100
+        },
+        {
+            "title": "手术治疗费",
+            "key": "operationTreatmentFees",
+            "align": "center",
+            "databaseFieldName": "operation_treatment_fees",
+            "width": 100
+        },
+        {
+            "title": "康复费",
+            "key": "rehabilitationFees",
+            "align": "center",
+            "databaseFieldName": "rehabilitation_fees",
+            "width": 100
+        },
+        {
+            "title": "中医治疗费",
+            "key": "tcmFees",
+            "align": "center",
+            "databaseFieldName": "tcm_fees",
+            "width": 100
+        },
+        {
+            "title": "（西药费中包括的）抗菌药物费用",
+            "key": "antibioticsFees",
+            "align": "center",
+            "databaseFieldName": "antibiotics_fees",
+            "width": 100
+        },
+        {
+            "title": "白蛋白类制品费",
+            "key": "albuminFees",
+            "align": "center",
+            "databaseFieldName": "albumin_fees",
+            "width": 100
+        },
+        {
+            "title": "球蛋白类制品费",
+            "key": "globulinFees",
+            "align": "center",
+            "databaseFieldName": "globulin_fees",
+            "width": 100
+        },
+        {
+            "title": "凝血因子类制品费",
+            "key": "coagulationFees",
+            "align": "center",
+            "databaseFieldName": "coagulation_fees",
+            "width": 100
+        },
+        {
+            "title": "细胞因子类制品费",
+            "key": "cytokineFees",
+            "align": "center",
+            "databaseFieldName": "cytokine_fees",
+            "width": 100
+        },
+        {
+            "title": "检查用一次性医用材料费",
+            "key": "examinationMedicalMaterialsFees",
+            "align": "center",
+            "databaseFieldName": "examination_medical_materials_fees",
+            "width": 100
+        },
+        {
+            "title": "治疗用一次性医用材料费",
+            "key": "treatmentMedicalMaterialsFees",
+            "align": "center",
+            "databaseFieldName": "treatment_medical_materials_fees",
+            "width": 100
+        },
+        {
+            "title": "手术用一次性医用材料费",
+            "key": "operationMedicalMaterialsFees",
+            "align": "center",
+            "databaseFieldName": "operation_medical_materials_fees",
+            "width": 100
+        },
+        {
+            "title": "其他费",
+            "key": "otherFees",
+            "align": "center",
+            "databaseFieldName": "other_fees",
+            "width": 100
+        },
+        {
+            "title": "临床路径管理",
+            "key": "clinicalPathwayManagement",
+            "align": "center",
+            "databaseFieldName": "clinical_pathway_management",
+            "width": 100
+        },
+        {
+            "title": "填报日期",
+            "key": "fillDate",
+            "align": "center",
+            "databaseFieldName": "fill_date",
+            "width": 100
+        }
+    ],
+    "columnYizhu": [
+        {
+            "title": "病案号",
+            "key": "medicareCard",
+            "align": "center",
+            "databaseFieldName": "medical_record",
+            "width": 100
+        },
+        {
+            "title": "住院次数",
+            "key": "hospitalTimes",
+            "align": "center",
+            "databaseFieldName": "hospital_times",
+            "width": 100
+        },
+        {
+            "title": "摆药时间",
+            "key": "putdrugDate",
+            "align": "center",
+            "databaseFieldName": "putdrug_date",
+            "width": 100
+        },
+        {
+            "title": "摆药天数",
+            "key": "putdrugDays",
+            "align": "center",
+            "databaseFieldName": "putdrug_days",
+            "width": 100
+        },
+        {
+            "title": "医嘱类别",
+            "key": "doctorAdviceType",
+            "align": "center",
+            "databaseFieldName": "doctor_advice_type",
+            "width": 100
+        },
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "databaseFieldName": "drug",
+            "width": 100
+        },
+        {
+            "title": "药品通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "databaseFieldName": "drug_generic_name",
+            "width": 150
+        },
+        {
+            "title": "药品商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "databaseFieldName": "drug_trade_name",
+            "width": 150
+        },
+        {
+            "title": "药品规格",
+            "key": "drugSpec",
+            "align": "center",
+            "databaseFieldName": "drug_spec",
+            "width": 100
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "databaseFieldName": "packing_quantity",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "databaseFieldName": "packing_unit",
+            "width": 100
+        },
+        {
+            "title": "药品剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "databaseFieldName": "drug_formulation",
+            "width": 100
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center",
+            "databaseFieldName": "path_drug",
+            "width": 100
+        },
+        {
+            "title": "药品生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "databaseFieldName": "drug_manufacturers",
+            "width": 150
+        },
+        {
+            "title": "剂量",
+            "key": "dosage",
+            "align": "center",
+            "databaseFieldName": "dosage",
+            "width": 100
+        },
+        {
+            "title": "用法",
+            "key": "usage",
+            "align": "center",
+            "databaseFieldName": "usage",
+            "width": 100
+        },
+        {
+            "title": "摆药数量",
+            "key": "putdrugQuantity",
+            "align": "center",
+            "databaseFieldName": "putdrug_quantity",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "单位",
+            "key": "units",
+            "align": "center",
+            "databaseFieldName": "units",
+            "width": 100
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "药品金额",
+            "key": "amount",
+            "align": "center",
+            "databaseFieldName": "amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "医师工号",
+            "key": "doctorId",
+            "align": "center",
+            "databaseFieldName": "doctor_id",
+            "width": 100
+        },
+        {
+            "title": "医师职称",
+            "key": "doctorTitle",
+            "align": "center",
+            "databaseFieldName": "doctor_title",
+            "width": 100
+        },
+        {
+            "title": "审核药师工号",
+            "key": "pharmacistAuditId",
+            "align": "center",
+            "databaseFieldName": "pharmacist_audit_id",
+            "width": 150
+        },
+        {
+            "title": "调剂药师工号",
+            "key": "pharmacistMakeId",
+            "align": "center",
+            "databaseFieldName": "pharmacist_make_id",
+            "width": 150
+        }
+    ],
+    "columnReject": {
+        "title": "规则",
+        "key": "rules",
+        "align": "center",
+        "width": 400
+    },
+    "columnMutex": {
+        "title": "规则",
+        "key": "rules",
+        "align": "center",
+        "width": 400
+    },
+    "columnQuery": {
+        "title": "规则",
+        "key": "rules",
+        "align": "center",
+        "width": 400
+    },
+    "columnQuality": {
+        "title": "规则",
+        "key": "rules",
+        "align": "center",
+        "width": 400
+    },
+    "updateType": {
+        "title": "修改状态",
+        "key": "updateType",
+        "align": "center",
+        "width": 150
+    }
+}

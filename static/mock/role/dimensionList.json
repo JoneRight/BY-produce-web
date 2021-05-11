@@ -1,0 +1,109 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "Id": "1",
+            "dimensionName": "0.9%氯化钠注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "2",
+            "dimensionName": "重酒石酸去甲肾上腺素注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "3",
+            "dimensionName": "注射用硝普钠",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "4",
+            "dimensionName": "甲硝唑葡萄糖注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "5",
+            "dimensionName": "复方丹参滴丸",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "6",
+            "dimensionName": "胞磷胆碱钠注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "7",
+            "dimensionName": "刺五加片",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "8",
+            "dimensionName": "注射用青霉素钠",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "9",
+            "dimensionName": "注射用头孢唑林钠",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "10",
+            "dimensionName": "（恤彤）丹参川芎嗪注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "11",
+            "dimensionName": "(30R芯)精蛋白生物合成人胰岛素注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "12",
+            "dimensionName": "维生素B12片",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "13",
+            "dimensionName": "附桂骨痛胶囊",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "14",
+            "dimensionName": "硫酸阿托品注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "15",
+            "dimensionName": "前列地尔注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "16",
+            "dimensionName": "口服",
+            "dimensionType":"给药途径"
+        },
+        {
+            "Id": "17",
+            "dimensionName": "外用",
+            "dimensionType":"给药途径"
+        },
+        {
+            "Id": "18",
+            "dimensionName": "生产企业A",
+            "dimensionType":"药品生产企业"
+        },
+        {
+            "Id": "19",
+            "dimensionName": "生产企业B",
+            "dimensionType":"药品生产企业"
+        },
+        {
+            "Id": "20",
+            "dimensionName": "生产企业C",
+            "dimensionType":"药品生产企业"
+        }
+    ]
+}        
+
+
+        

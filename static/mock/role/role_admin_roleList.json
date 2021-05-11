@@ -1,0 +1,42 @@
+{
+    "isSuccess": true,
+    "msg": "响应成功",
+    "code": 200,
+    "result": [{
+        "method": null,
+        "pageSize": 10,
+        "pageNum": 1,
+        "beginTime": null,
+        "endTime": null,
+        "roleId": 1,
+        "roleName": "管理员",
+        "createTime": "2018-02-27 14:34:30",
+        "remark": "勿动",
+        "delFlag": 0,
+        "rowStart": 0
+    }, {
+        "method": null,
+        "pageSize": 10,
+        "pageNum": 1,
+        "beginTime": null,
+        "endTime": null,
+        "roleId": 2,
+        "roleName": "教师",
+        "createTime": "2018-02-27 14:34:30",
+        "remark": "勿动",
+        "delFlag": 0,
+        "rowStart": 0
+    }, {
+        "method": null,
+        "pageSize": 10,
+        "pageNum": 1,
+        "beginTime": null,
+        "endTime": null,
+        "roleId": 3,
+        "roleName": "学生",
+        "createTime": "2018-02-27 14:35:21",
+        "remark": "勿动",
+        "delFlag": 0,
+        "rowStart": 0
+    }]
+}

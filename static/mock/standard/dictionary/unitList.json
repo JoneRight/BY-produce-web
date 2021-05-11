@@ -1,0 +1,23 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "name": "克",
+                    "memo": "新增"
+                },{
+                    "number": "02",
+                    "name": "升",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

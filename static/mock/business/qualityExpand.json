@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "hospitalNum": "NB001",
+        "hospitalName": "青岛市立医院",
+        "province": "山东省",
+        "city": "青岛市",
+        "dataType": "购药数据",
+        "fileDate": "2018年10月",
+        "fileName": "",
+        "drug": "",
+        "drug_generic_name": "小儿迪巧",
+        "drug_trade_name": "小儿迪巧",
+        "drug_spec": "10包",
+        "packing_quantity": "20",
+        "packing_unit": "包",
+        "drug_formulation": "贴",
+        "path_drug": "口服",
+        "purchase_volume": "1000",
+        "单价/盒": "45.2",
+        "purchase_amount": "45200",
+        "drug_manufacturers": "齐鲁制药有限公司",
+        "drug_wholesale": "齐鲁制药有限公司",
+        "month_inventory": "1520"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "economicArea": "01",
+                    "economicName": "青岛市群",
+                    "memo": "新增"
+                },{
+                    "economicArea": "02",
+                    "economicName": "西安市群",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

@@ -1,0 +1,36 @@
+{
+    "isSuccess": true, 
+    "msg": "响应成功", 
+    "code": 200, 
+    "result": [
+        {
+            "notice_user_id": 23, 
+            "createTime": "2018-03-16", 
+            "link": "", 
+            "title": "[催交报告]测试任务管理201", 
+            "type": 4, 
+            "summary": "催交报告_测试任务管理201"
+        },{
+            "title": "[集群回收]张三老师<span style='color:#b3b3b3'>回收了</span>大数据实战操作群",
+            "info": "您好！您的实验室平台<span style='color:red'>将在次月1好到期</span>，为了不影响您的正常使用，希望您致电办理续费。感谢您一直以来的支持和厚爱",
+            "link": "/cluster",
+            "createTime": "2018-02-22",
+            "type": "1",
+            "notice_user_id": 23
+        },{
+            "title": "[新任务通知]张三老师<span style='color:#b3b3b3'>回收了</span>大数据实战操作群",
+            "info": "您好！您的实验室平台<span style='color:red'>将在次月1好到期</span>，为了不影响您的正常使用，希望您致电办理续费。感谢您一直以来的支持和厚爱",
+            "link": "/mytasks",
+            "createTime": "2018-02-22",
+            "type": "2",
+            "notice_user_id": 23
+        },{
+            "title": "[报告批复]张三老师<span style='color:#b3b3b3'>回收了</span>大数据实战操作群",
+            "info": "您好！您的实验室平台<span style='color:red'>将在次月1好到期</span>，为了不影响您的正常使用，希望您致电办理续费。感谢您一直以来的支持和厚爱",
+            "link": "/mytasks",
+            "createTime": "2018-02-22",
+            "type": "3",
+            "notice_user_id": 23
+        }
+    ]
+}

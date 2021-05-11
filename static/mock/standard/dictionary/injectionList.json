@@ -1,0 +1,37 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "compatibilityDrug": "01",
+                    "sCompatibilityDrug": "氯化钠注射液",
+                    "isCompatibility": "否",
+                    "compatibilityEffect": "效果良好",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                },{
+                    "compatibilityDrug": "02",
+                    "sCompatibilityDrug": "维生素B",
+                    "isCompatibility": "是",
+                    "compatibilityEffect": "",
+                    "memo": "新增",
+                    "lastModified":"",
+                    "changeDate":"",
+                    "lastReviewed":"",
+                    "auditDate":"",
+                    "operationStatus":""
+                }
+            ]
+        }
+    ]    
+}

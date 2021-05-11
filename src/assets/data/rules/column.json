@@ -1,0 +1,344 @@
+{
+    "T_MAP_SEX": [
+        {
+            "title": "性别编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "性别",
+            "key": "sex",
+            "align": "center"
+        }
+    ],
+    "T_MAP_AGE": [
+        {
+            "title": "年龄编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "年龄",
+            "key": "age",
+            "align": "center"
+        }
+    ],
+    "T_MAP_SECTION": [
+        {
+            "title": "科室编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "科室名称",
+            "key": "section",
+            "align": "center"
+        }
+    ],
+    "T_MAP_PAYWAY": [
+        {
+            "title": "付费方式编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "付费方式名称",
+            "key": "paymentMethod",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DOCTORTITLE": [
+        {
+            "title": "医生职称编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "医生职称名称",
+            "key": "doctorTitle",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DOSE": [
+        {
+            "title": "剂量编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "剂量名称",
+            "key": "dosage",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DIAGNOSIS": [
+        {
+            "title": "诊断名称编码",
+            "key": "diseaseType",
+            "align": "center"
+        },
+        {
+            "title": "诊断名称",
+            "key": "diseaseTypeName",
+            "align": "center"
+        }
+    ],
+    "T_MAP_PATHDRUG": [
+        {
+            "title": "给药途径编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center"
+        }
+    ],
+    "T_MAP_USAGE": [
+        {
+            "title": "用法名称编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "用法名称",
+            "key": "usage",
+            "align": "center"
+        }
+    ],
+    "T_MAP_WOUND": [
+        {
+            "title": "包装规格编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "切口名称",
+            "key": "wound",
+            "align": "center"
+        }
+    ],
+    "T_MAP_HEALING": [
+        {
+            "title": "愈合编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "愈合",
+            "key": "healing",
+            "align": "center"
+        }
+    ],
+    "T_MAP_ADMISSION": [
+        {
+            "title": "入院情况编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "入院情况名称",
+            "key": "admissionOf",
+            "align": "center"
+        }
+    ],
+    "T_MAP_ADVICE": [
+        {
+            "title": "医嘱编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "医嘱类型",
+            "key": "doctorAdviceType",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DRUGFORM": [
+        {
+            "title": "剂型名称编号",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "剂型名称",
+            "key": "drugFormulation",
+            "align": "center"
+        }
+    ],
+    "T_MAP_MANUFACTURER": [
+        {
+            "title": "厂家编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "厂家",
+            "key": "drugManufacturers",
+            "align": "center"
+        }
+    ],
+    "T_MAP_OPERATION": [
+        {
+            "title": "手术编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "手术",
+            "key": "operation",
+            "align": "center"
+        }
+    ],
+    "T_MAP_GENERICNAME": [
+        {
+            "title": "通用名编号",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "通用名名称",
+            "key": "drugGenericName",
+            "align": "center"
+        }
+    ],
+    "T_MAP_TREATMENT_CARD": [
+        {
+            "title": "就诊卡号编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "就诊卡号",
+            "key": "treatmentCard",
+            "align": "center"
+        }
+    ],
+    "T_MAP_TREATRESULT": [
+        {
+            "title": "治疗结果编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "治疗结果名称",
+            "key": "treatmentResultInfect",
+            "align": "center"
+        }
+    ],
+    "T_MAP_TRADENAME": [
+        {
+            "title": "商品名称编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "商品名称",
+            "key": "drugTradeName",
+            "align": "center"
+        }
+    ],
+    "T_MAP_MEDICAL_RECORD": [
+        {
+            "title": "病案号编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "病案号",
+            "key": "medicalNumCode",
+            "align": "center"
+        }
+    ],
+    "T_MAP_SALEENTERPRISE": [
+        {
+            "title": "批发企业编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "批发企业",
+            "key": "operation",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DRUGSPEC": [
+        {
+            "title": "药品规格编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "药品规格",
+            "key": "drugSpec",
+            "align": "center"
+        }
+    ],
+    "T_MAP_PACKAGESPEC": [
+        {
+            "title": "包装规格编码",
+            "key": "standardId",
+            "align": "center"
+        },
+        {
+            "title": "包装规格",
+            "key": "packingQuantity",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DOCTOR_ID": [
+        {
+            "title": "医生工号",
+            "key": "doctorNum",
+            "align": "center"
+        },
+        {
+            "title": "医生职称",
+            "key": "doctorTitle",
+            "align": "center"
+        },
+        {
+            "title": "备注",
+            "key": "memo",
+            "align": "center"
+        }
+    ],
+    "T_MAP_DRUG":[
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center"
+        },
+        {
+            "title": "药品通用名",
+            "key": "drugGenericName",
+            "align": "center"
+        },
+        {
+            "title": "药品商品名",
+            "key": "drugTradeName",
+            "align": "center"
+        },
+        {
+            "title": "药品规格",
+            "key": "spec",
+            "align": "center"
+        },
+        {
+            "title": "包装规格",
+            "key": "packageSpec",
+            "align": "center"
+        },
+        {
+            "title": "剂型",
+            "key": "formNameChinese",
+            "align": "center"
+        },
+        {
+            "title": "生产企业",
+            "key": "companyName",
+            "align": "center"
+        }
+    ]
+}

@@ -1,0 +1,656 @@
+{
+    "columncommon": [
+        {
+            "title": "数据类型",
+            "key": "data_Type",
+            "align": "center",
+            "width": 90
+        },
+        {
+            "title": "省份",
+            "key": "province",
+            "align": "center",
+            "width": 60
+        },
+        {
+            "title": "城市",
+            "key": "city",
+            "align": "center",
+            "width": 60
+        },
+        {
+            "title": "医院编号",
+            "key": "hospitalNum",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "医院名称",
+            "key": "hospitalName",
+            "align": "center",
+            "width": 200
+        },
+        {
+            "title": "数据年月",
+            "key": "fileDate",
+            "align": "center",
+            "width": 100
+        }
+    ],
+    "columnGouyao": [
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "标准药品编码",
+            "key": "mdurg",
+            "align": "center",
+            "width": 140
+        },
+        {
+            "title": "通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "标准通用名",
+            "key": "mapDrugGenName",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准商品名",
+            "key": "mapDrugTreaName",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "规格",
+            "key": "drugSpec",
+            "align": "center",
+            "width": 140
+        },
+        {
+            "title": "标准统一规格",
+            "key": "mapDrugSpec",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "药品剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准剂型",
+            "key": "mapDrugForm",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "标准生产企业",
+            "key": "mapDrugManu",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "标准包装规格",
+            "key": "baozhuangSpec",
+            "align": "center",
+            "width": 120,
+            "show": true
+        },
+        {
+            "title": "标准包装规格",
+            "key": "mapDrugPack",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "与医院单价比",
+            "key": "hospPriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与省份单价比",
+            "key": "provincePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与标准单价比",
+            "key": "basePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "标准销售单价",
+            "key": "mapPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "标准制剂单价",
+            "key": "mapPresPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 170,
+            "show":true
+        },
+        {
+            "title": "上报单价",
+            "key": "bakprice",
+            "align": "center",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "质检购进量",
+            "key": "checkpurchaseVolume",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "购进量",
+            "key": "purchaseVolume",
+            "align": "center",
+            "databaseFieldName": "purchase_volume",
+            "width": 170,
+            "show":true
+        },
+        {
+            "title": "上报购进量",
+            "key": "bakpurchaseVolume",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "质检购药总额",
+            "key": "checkpurchaseAmount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "购药总额",
+            "key": "purchaseAmount",
+            "align": "center",
+            "databaseFieldName": "purchase_amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "上报购药总额",
+            "key": "bakpurchaseAmount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "本月库存量",
+            "key": "monthInventory",
+            "align": "center",
+            "width": 110
+        },
+        {
+            "title": "药品批发企业",
+            "key": "drugWholesale",
+            "align": "center",
+            "width": 150
+        }
+    ],
+    "columnMenjizhen": [
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准药品编码",
+            "key": "mdurg",
+            "align": "center",
+            "width": 140
+        },
+        {
+            "title": "通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "标准通用名",
+            "key": "mapDrugGenName",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准商品名",
+            "key": "mapDrugTreaName",
+            "align": "center",
+            "width": 140
+        },
+        {
+            "title": "规格",
+            "key": "drugSpec",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准规格",
+            "key": "mapDrugSpec",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "width": 70
+        },
+        {
+            "title": "标准剂型",
+            "key": "mapDrugForm",
+            "align": "center",
+            "width": 90
+        },
+        {
+            "title": "生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "width": 150
+        },
+        {
+            "title": "标准生产企业",
+            "key": "mapDrugManu",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "标准包装规格",
+            "key": "baozhuangSpec",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "标准包装规格",
+            "key": "mapDrugPack",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "与医院单价比",
+            "key": "hospPriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与省份单价比",
+            "key": "provincePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与标准单价比",
+            "key": "basePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "标准销售单价",
+            "key": "mapPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "标准制剂单价",
+            "key": "mapPresPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 170,
+            "show":true
+        },
+        {
+            "title": "上报单价",
+            "key": "bakprice",
+            "align": "center",
+            "width": 100,
+            "show":true
+        },        
+        {
+            "title": "质检数量",
+            "key": "checkquantity",
+            "align": "center",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "数量",
+            "key": "quantity",
+            "align": "center",
+            "databaseFieldName": "quantity",
+            "width": 170,
+            "show":true
+        },
+        {
+            "title": "上报数量",
+            "key": "bakpurchaseVolume",
+            "align": "center",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "质检药品金额",
+            "key": "checkamount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "药品金额",
+            "key": "amount",
+            "align": "center",
+            "databaseFieldName": "amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "上报药品金额",
+            "key": "bakpurchaseAmount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        }
+    ],
+    "columnYizhu": [
+        {
+            "title": "摆药天数",
+            "key": "putdrugDays",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "医嘱类别",
+            "key": "doctorAdviceType",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "药品编码",
+            "key": "drug",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准药品编码",
+            "key": "mdurg",
+            "align": "center",
+            "width": 140
+        },
+        {
+            "title": "通用名",
+            "key": "drugGenericName",
+            "align": "center",
+            "width": 150
+        },
+        {
+            "title": "标准通用名",
+            "key": "mapDrugGenName",
+            "align": "center",
+            "width": 180
+        },
+        {
+            "title": "商品名",
+            "key": "drugTradeName",
+            "align": "center",
+            "width": 150
+        },
+        {
+            "title": "标准商品名",
+            "key": "mapDrugTreaName",
+            "align": "center",
+            "width": 180
+        },
+        {
+            "title": "规格",
+            "key": "drugSpec",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准统一规格",
+            "key": "mapDrugSpec",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "剂型",
+            "key": "drugFormulation",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "标准剂型",
+            "key": "mapDrugForm",
+            "align": "center",
+            "width": 120
+        },
+        {
+            "title": "生产企业",
+            "key": "drugManufacturers",
+            "align": "center",
+            "width": 150
+        },
+        {
+            "title": "标准生产企业",
+            "key": "mapDrugManu",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "标准包装规格",
+            "key": "baozhuangSpec",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },        
+        {
+            "title": "标准包装规格",
+            "key": "mapDrugPack",
+            "align": "center",
+            "width": 160
+        },
+        {
+            "title": "包装数量",
+            "key": "packingQuantity",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "包装单位",
+            "key": "packingUnit",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "给药途径",
+            "key": "pathDrug",
+            "align": "center",
+            "width": 100
+        },
+        {
+            "title": "与医院单价比",
+            "key": "hospPriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与省份单价比",
+            "key": "provincePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "与标准单价比",
+            "key": "basePriceRate",
+            "align": "center",
+            "width": 120,
+            "show":false
+        },
+        {
+            "title": "标准销售单价",
+            "key": "mapPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "标准制剂单价",
+            "key": "mapPresPrice",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "单价",
+            "key": "price",
+            "align": "center",
+            "databaseFieldName": "price",
+            "width": 170,
+            "show":true
+        },
+        {
+            "title": "上报单价",
+            "key": "bakprice",
+            "align": "center",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "质检摆药数量",
+            "key": "checkputdrugQuantity",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "摆药数量",
+            "key": "putdrugQuantity",
+            "align": "center",
+            "databaseFieldName": "putdrug_quantity",
+            "width": 170,
+            "show":true
+        },
+
+        {
+            "title": "上报摆药数量",
+            "key": "bakpurchaseVolume",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "质检药品金额",
+            "key": "checkamount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        },
+        {
+            "title": "药品金额",
+            "key": "amount",
+            "align": "center",
+            "databaseFieldName": "amount",
+            "width": 100,
+            "show":true
+        },
+        {
+            "title": "上报药品金额",
+            "key": "bakpurchaseAmount",
+            "align": "center",
+            "width": 120,
+            "show":true
+        }
+    ]
+}

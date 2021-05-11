@@ -1,0 +1,47 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":1,
+            "totalItemCount":5,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "authId": "1",
+                    "authName": "重新清洗",
+                    "authNo": "001",
+                    "menuName": "查重管理"
+                },
+                {
+                    "authId": "2",
+                    "authName": "编辑",
+                    "authNo": "002",
+                    "menuName": "角色管理"
+                },
+                {
+                    "authId": "3",
+                    "authName": "详情",
+                    "authNo": "003",
+                    "menuName": "用户管理"
+                },
+                {
+                    "authId": "4",
+                    "authName": "上报",
+                    "authNo": "004",
+                    "menuName": "代上报"
+                },
+                {
+                    "authId": "5",
+                    "authName": "再次催报",
+                    "authNo": "005",
+                    "menuName": "催报列表"
+                }
+            ]
+        }
+    ]
+}        
+
+
+        

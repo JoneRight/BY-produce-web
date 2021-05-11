@@ -1,0 +1,32 @@
+{
+	"isSuccess": true,
+	"msg": "响应成功",
+	"code": 200,
+	"result": {
+		"userId": 12,
+		"realName": "张老师",
+		"loginName": "teacher",
+		"userType": 2,
+		"userPic": null,
+		"gender": 1,
+		"email": "222222222222@qq.com",
+		"phone": "13396396222",
+		"studentNo": null,
+		"classId": null,
+		"createTime": null,
+		"updateTime": null,
+		"deleteTime": null,
+		"remark": null,
+		"delFlag": 0,
+		"token": "CCFFB0BB993EEB79059B31E1611EC353:u1j7dn02uz34",
+		"teamCount": null,
+		"usedSource": null,
+		"teamName": null,
+		"url": "/student",
+		"classCount": null,
+		"className": null,
+		"auths": ["courselist", "coursedetail", "myresourcelist", "myresourceapply", "myresourcehistory", "myresourcedetail", "myresourcerecycle", "myresourcereport", "myresourcebackout", "myclasslist", "myclassadd", "myclassdetail", "myclassteam", "myclasseditteam", "myclassdeleteteam", "experimentlist", "experimentadd", "experimentdetail", "experimentrecycle", "tasklist", "taskadd", "taskdetail", "taskreport", "taskapprove", "mymateriallist", "mymaterialupload", "mymaterialadd", "mymaterialdetail", "mymaterialedit", "mymaterialdelete"],
+		"roleList": null,
+		"reportId": null
+	}
+}

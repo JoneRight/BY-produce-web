@@ -1,0 +1,22 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "value":1,
+            "label":"中药剔除1"
+        },
+        {
+            "value":2,
+            "label":"自研药剔除1"
+        },
+        {
+            "value":3,
+            "label":"中药剔除2"
+        },
+        {
+            "value":4,
+            "label":"自研药剔除2"
+        }
+    ]
+}

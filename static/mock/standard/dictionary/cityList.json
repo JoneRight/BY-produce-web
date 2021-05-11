@@ -1,0 +1,47 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "name": "青岛市",
+                    "province": "山东省",
+                    "administrative": "",
+                    "economicRegion": "",
+                    "country": "",
+                    "postcode": "",
+                    "cityLevel": "",
+                    "cityType": "",
+                    "isCapital": "",
+                    "isMunicipalities": "",
+                    "cityCode": "",
+                    "listLength": "",
+                    "hospCounter": "",
+                    "memo": "新增"
+                },{
+                    "number": "02",
+                    "name": "太原市",
+                    "province": "山西省",
+                    "administrative": "",
+                    "economicRegion": "",
+                    "country": "",
+                    "postcode": "",
+                    "cityLevel": "",
+                    "cityType": "",
+                    "isCapital": "",
+                    "isMunicipalities": "",
+                    "cityCode": "",
+                    "listLength": "",
+                    "hospCounter": "",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

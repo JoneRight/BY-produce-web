@@ -1,0 +1,61 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "currentPageIndex": 1,
+        "totalPageCount": 7,
+        "totalItemCount": 68,
+        "pageSize": 10,
+        "dataList": [{
+                "userId": 1,
+                "userName": "张三",
+                "userPhone": "15064201100"
+            },
+            {
+                "userId": 2,
+                "userName": "李四",
+                "userPhone": "15064201101"
+            },
+            {
+                "userId": 3,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 4,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 5,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 6,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 7,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 8,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 9,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            },
+            {
+                "userId": 10,
+                "userName": "王五",
+                "userPhone": "15064201102"
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "elasticsearch": ["Elasticsearch"],
+    "kafka": ["Kafka", "QuorumPeerMain"],
+    "storm": ["QuorumPeerMain", "core", "nimbus", "Supervisor"],
+    "spark": ["DataNode", "Master", "NameNode", "NodeManager", "ResourceManager", "SecondaryNameNode", "Worker"],
+    "hive": ["DataNode", "NameNode", "NodeManager", "ResourceManager", "RunJar", "SecondaryNameNode"],
+    "hbase": ["DataNode", "NameNode", "NodeManager", "ResourceManager", "HRegionServer", "SecondaryNameNode", "HMaster", "QuorumPeerMain"],
+    "hadoop": ["DataNode", "NameNode", "NodeManager", "ResourceManager", "SecondaryNameNode"],
+    "custom": [],
+    "yuqing": [],
+    "guangfu": [],
+    "minhang": [],
+    "dianshang": [],
+    "tianqi": [],
+    "chengguan": [],
+    "rizhi": []
+}

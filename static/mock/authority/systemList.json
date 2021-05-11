@@ -1,0 +1,35 @@
+{
+    "code":0,
+    "message":"",
+    "data":{
+            "currentPageIndex":1,
+            "totalPageCount":1,
+            "totalItemCount":5,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "systemId": "1",
+                    "systemName": "业务系统"
+                },
+                {
+                    "systemId": "2",
+                    "systemName": "上报系统"
+                },
+                {
+                    "systemId": "3",
+                    "systemName": "BI系统"
+                },
+                {
+                    "systemId": "4",
+                    "systemName": "百洋业务系统"
+                },
+                {
+                    "systemId": "5",
+                    "systemName": "平台管理系统"
+                }
+            ]
+        }
+}        
+
+
+        

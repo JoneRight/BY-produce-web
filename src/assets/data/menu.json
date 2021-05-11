@@ -1,0 +1,803 @@
+{
+    "menuList": [{
+            "menuId": 209,
+            "menuName": "仪表盘",
+            "menuUrl": "/homePage/list",
+            "menuIcon": "dashboard.png",
+            "parentId": 0,
+            "subMenuList": [{
+                "menuId": 51,
+                "menuName": "仪表盘",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/homePage/list",
+                "parentId": 209,
+                "subMenuList": []
+            }]
+        },
+        {
+            "menuId": 101,
+            "menuName": "上报管理",
+            "menuUrl": "/report",
+            "menuIcon": "shangbao.png",
+            "parentId": 0,
+            "subMenuList": [{
+                "menuId": 18,
+                "menuName": "上报文件",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/reportManage",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 19,
+                "menuName": "代上报",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/replace",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 20,
+                "menuName": "催报管理",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/urge",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 21,
+                "menuName": "医院管理",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/hospital",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 22,
+                "menuName": "样本管理",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/sample",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 23,
+                "menuName": "消息通知",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/massage",
+                "parentId": 101,
+                "subMenuList": []
+            }, {
+                "menuId": 24,
+                "menuName": "资源管理",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/resource",
+                "parentId": 101,
+                "subMenuList": []
+            },
+            {
+                "menuId": 25,
+                "menuName": "上报错误列表",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/reportMistakeMessage",
+                "parentId": 101,
+                "subMenuList": [] 
+            },
+            {
+                "menuId": 26,
+                "menuName": "上报错误列表",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/report/hospitalFileSign",
+                "parentId": 101,
+                "subMenuList": [] 
+            }
+        ]
+        },
+        {
+            "menuId": 2,
+            "menuName": "业务管理",
+            "menuUrl": "/business",
+            "menuIcon": "yewu.png",
+            "subMenuList": [{
+                    "menuId": 4,
+                    "menuName": "分配任务",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/taskAllocation",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 5,
+                    "menuName": "重新清洗",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/redo",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 6,
+                    "menuName": "清洗总览",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/overview",
+                    "parentId": 2,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 7,
+                    "menuName": "文件初检",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/initialSurvey",
+                    "parentId": 2,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 8,
+                    "menuName": "文件表头",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/headerMapped",
+                    "parentId": 2,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 9,
+                    "menuName": "文件查重",
+                    "menuUrl": "/business/duplicateCheck",
+                    "menuIcon": "ios-paper-outline",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 10,
+                    "menuName": "数据剔除",
+                    "menuUrl": "/business/reject",
+                    "menuIcon": "ios-paper-outline",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 11,
+                    "menuName": "数据校验",
+                    "menuUrl": "/business/dataCheck",
+                    "menuIcon": "ios-paper-outline",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 12,
+                    "menuName": "数据映射",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/dataMapped",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 13,
+                    "menuName": "数据质疑",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/query",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 14,
+                    "menuName": "数据互斥",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/mutex",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 15,
+                    "menuName": "单位换算",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/convert",
+                    "parentId": 2,
+                    "subMenuList": []
+                }, {
+                    "menuId": 15,
+                    "menuName": "数据总检",
+                    "menuIcon": "ios-paper-outline",
+                    "menuUrl": "/business/history",
+                    "parentId": 2,
+                    "subMenuList": []
+                }
+            ]
+        },
+        {
+            "menuId": 102,
+            "menuName": "规则管理",
+            "menuUrl": "/rules",
+            "menuIcon": "guizeku.png",
+            "subMenuList": [{
+                "menuId": 25,
+                "menuName": "基础规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/basice",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 26,
+                "menuName": "表头映射",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/headerMapping",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 27,
+                "menuName": "特殊字符",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/specialChart",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 28,
+                "menuName": "查重规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/duplicateCheck",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 29,
+                "menuName": "剔除规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/reject",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 30,
+                "menuName": "映射规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/dataMapped",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 31,
+                "menuName": "质疑规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/query",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 32,
+                "menuName": "互斥规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/mutex",
+                "parentId": 102,
+                "subMenuList": []
+            }, {
+                "menuId": 33,
+                "menuName": "换算规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/convert",
+                "subMenuList": []
+            }, {
+                "menuId": 34,
+                "menuName": "质检规则",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/rules/qualityTest",
+                "parentId": 102,
+                "subMenuList": []
+            }]
+        },
+        {
+            "menuId": 103,
+            "menuName": "字典标准",
+            "menuUrl": "/standard",
+            "menuIcon": "changguizidian.png",
+            "parentId": 0,
+            "subMenuList": [{
+                    "menuId": 49,
+                    "menuName": "系统原因",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/reasonDictionary/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 50,
+                    "menuName": "系统原因类型",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/reasonType/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 52,
+                    "menuName": "经济区域",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/economicArea/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 53,
+                    "menuName": "城市",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/city/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 54,
+                    "menuName": "城市群",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/cityGroup/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 55,
+                    "menuName": "城市群对应城市",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/cityAggRelation/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 56,
+                    "menuName": "生产企业集团",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/companyBloc/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 57,
+                    "menuName": "批发厂商集团",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/WholesaleBloc/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 58,
+                    "menuName": "ATC分类",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugATC/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                }, {
+                    "menuId": 59,
+                    "menuName": "SDCC分类",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugSDCC/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 60,
+                    "menuName": "进口药品信息",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugsImport/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 61,
+                    "menuName": "注射剂配伍禁忌项",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/injectionItem/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 62,
+                    "menuName": "给药途径",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/pathDrug/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                }, {
+                    "menuId": 63,
+                    "menuName": "计量单位",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/unit/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 64,
+                    "menuName": "OTC药品",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugOtc/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 65,
+                    "menuName": "医保用药",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugRural/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 66,
+                    "menuName": "麻醉药物",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugNarcotize/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 67,
+                    "menuName": "毒性药物",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugVirulence/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 68,
+                    "menuName": "放射性药物",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugRadioactivity/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 69,
+                    "menuName": "盐酸根",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugSaltAcid/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 70,
+                    "menuName": "药品剂型_给药途径",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/formDrugPath/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 71,
+                    "menuName": "药品有效期",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugValidity/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 72,
+                    "menuName": "分包装企业",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/poinpackCompany/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 73,
+                    "menuName": "药品企业",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugCompany/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 74,
+                    "menuName": "药品商品名",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/dictionary/drugTrade/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                }
+            ]
+        },
+        {
+            "menuId": 104,
+            "menuName": "映射标准",
+            "menuUrl": "/standard",
+            "menuIcon": "yewucaozuoyingshe.png",
+            "parentId": 0,
+            "subMenuList": [{
+                    "menuId": 69,
+                    "menuName": "入院情况",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/inHospital/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 70,
+                    "menuName": "疾病",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/disease/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 71,
+                    "menuName": "医嘱类型",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/adviceType/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 72,
+                    "menuName": "医生职称",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/doctorTitle/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 73,
+                    "menuName": "手术",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/operation/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 74,
+                    "menuName": "临床给药途径",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/pathDrugPres/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 75,
+                    "menuName": "付费方式",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/pay/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 76,
+                    "menuName": "科室",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/office/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 77,
+                    "menuName": "年龄",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/age/list",
+                    "parentId": 103,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 78,
+                    "menuName": "性别",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/sex/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 79,
+                    "menuName": "治疗结果",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/cureResult/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 80,
+                    "menuName": "切口",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/wound/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 81,
+                    "menuName": "愈合",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/healing/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 82,
+                    "menuName": "药品",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/drugs/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 83,
+                    "menuName": "通用名",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/genericName/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 84,
+                    "menuName": "商品名",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/tradeName/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 85,
+                    "menuName": "规格",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/spec/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 91,
+                    "menuName": "包装规格",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/packageSpec/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 86,
+                    "menuName": "剂型",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/form/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 87,
+                    "menuName": "生产企业",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/medicalCompany/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 88,
+                    "menuName": "批发企业",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/saleEnterprise/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 89,
+                    "menuName": "用法",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/drugUse/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }, {
+                    "menuId": 90,
+                    "menuName": "剂量",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/standard/mapping/dosage/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }
+
+            ]
+        },
+        {
+            "menuId": 105,
+            "menuName": "权限管理",
+            "menuUrl": "/authority",
+            "menuIcon": "quanxian.png",
+            "parentId": 0,
+            "subMenuList": [{
+                    "menuId": 51,
+                    "menuName": "系统管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/system/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 52,
+                    "menuName": "菜单管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/menu/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 53,
+                    "menuName": "用户管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/user/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 54,
+                    "menuName": "角色管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/role/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 55,
+                    "menuName": "权限管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/authority/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 56,
+                    "menuName": "部门管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/dept/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 56,
+                    "menuName": "业务权限",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/busManager/list",
+                    "parentId": 104,
+                    "subMenuList": []
+                }
+            ]
+        },
+        {
+            "menuId": 205,
+            "menuName": "产品管理",
+            "menuIcon": "chanpin.png",
+            "menuUrl": "/authority/product/list",
+            "parentId": 0,
+            "subMenuList": [{
+                    "menuId": 51,
+                    "menuName": "用户产品",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/product/userProlist",
+                    "parentId": 205,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 52,
+                    "menuName": "产品管理",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/product/list",
+                    "parentId": 205,
+                    "subMenuList": []
+                },
+                {
+                    "menuId": 53,
+                    "menuName": "产品续费",
+                    "menuIcon": "ios-paper-online",
+                    "menuUrl": "/authority/product/renewList",
+                    "parentId": 205,
+                    "subMenuList": []
+                }
+            ]
+        },
+        {
+            "menuId": 202,
+            "menuName": "报告管理",
+            "menuUrl": "/reportManager/reportManager",
+            "menuIcon": "fengmian.png",
+            "parentId": 0,
+            "subMenuList": [{
+                "menuId": 51,
+                "menuName": "统计分析",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/reportManager/reportManager",
+                "parentId": 202,
+                "subMenuList": []
+            }, {
+                "menuId": 52,
+                "menuName": "数据报告",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/dataReportManage/dataReportManage",
+                "parentId": 203,
+                "subMenuList": []
+            }]
+        },
+        {
+            "menuId": 203,
+            "menuName": "问题反馈",
+            "menuUrl": "/feedBack/list",
+            "menuIcon": "fankui.png",
+            "parentId": 0,
+            "subMenuList": [{
+                "menuId": 51,
+                "menuName": "问题反馈",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/feedBack/list",
+                "parentId": 203,
+                "subMenuList": []
+            }]
+        },
+        {
+            "menuId": 204,
+            "menuName": "报表管理",
+            "menuUrl": "/reportForms/reportFormsManager",
+            "menuIcon": "tongjizongshu.png",
+            "parentId": 0,
+            "subMenuList": [{
+                "menuId": 51,
+                "menuName": "报表管理",
+                "menuIcon": "ios-paper-online",
+                "menuUrl": "/reportForms/reportFormsManager",
+                "parentId": 203,
+                "subMenuList": []
+            }]
+        }
+    ]
+}

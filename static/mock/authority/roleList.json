@@ -1,0 +1,105 @@
+{
+    "code":0,
+    "message":"",
+    "data":{
+            "currentPageIndex":1,
+            "totalPageCount":2,
+            "totalItemCount":15,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "roleId": "1",
+                    "roleName": "上报角色",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "2",
+                    "roleName": "业务角色",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "3",
+                    "roleName": "规则库管理员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "4",
+                    "roleName": "标准库管理员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "5",
+                    "roleName": "管理员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "6",
+                    "roleName": "业务员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "7",
+                    "roleName": "随机角色",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "8",
+                    "roleName": "角色2",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "9",
+                    "roleName": "资料员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "10",
+                    "roleName": "质检员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "11",
+                    "roleName": "上报员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "12",
+                    "roleName": "生产部",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "13",
+                    "roleName": "国家级人员",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "14",
+                    "roleName": "测试角色",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                },
+                {
+                    "roleId": "15",
+                    "roleName": "角色一",
+                    "roleSystemId": "20",
+                    "roleRemark" : "角色简介"
+                }
+            ]
+        }
+}        
+
+
+        

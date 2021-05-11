@@ -1,0 +1,62 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":1,
+            "totalItemCount":5,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "menuId": "1",
+                    "menuName": "业务管理",
+                    "menuNo" : "001",
+                    "menuSubName": "去重管理，初检管理，剔除管理",
+                    "menuParentId": "0",
+                    "menuOrder": "1",
+                    "menuSystemId": "20"
+                },
+                {
+                    "menuId": "2",
+                    "menuName": "上报管理",
+                    "menuNo" : "002",
+                    "menuSubName": "医院管理，样本管理，代上报",
+                    "menuParentId": "0",
+                    "menuOrder": "1",
+                    "menuSystemId": "20"
+                },
+                {
+                    "menuId": "3",
+                    "menuName": "规则管理",
+                    "menuNo" : "003",
+                    "menuSubName": "质疑规则，初检规则，数据映射规则，单位换算规则",
+                    "menuParentId": "0",
+                    "menuOrder": "1",
+                    "menuSystemId": "20"
+                },
+                {
+                    "menuId": "4",
+                    "menuName": "标准库管理",
+                    "menuNo" : "004",
+                    "menuSubName": "字典表",
+                    "menuParentId": "0",
+                    "menuOrder": "1",
+                    "menuSystemId": "20"
+                },
+                {
+                    "menuId": "5",
+                    "menuName": "权限管理",
+                    "menuNo" : "005",
+                    "menuSubName": "系统管理，菜单管理，用户管理，角色管理，权限管理，部门管理，产品管理",
+                    "menuParentId": "0",
+                    "menuOrder": "1",
+                    "menuSystemId": "20"
+                }
+            ]
+        }
+    ]
+}        
+
+
+        

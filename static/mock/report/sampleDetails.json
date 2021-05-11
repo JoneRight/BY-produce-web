@@ -1,0 +1,26 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "hospitalId":"1001",
+            "title":"青岛市中心医院"
+        },
+        {
+            "hospitalId":"1003",
+            "title":"齐鲁医院"
+        },
+        {
+            "hospitalId":"1005",
+            "title":"淄博妇幼医院"
+        },
+        {
+            "hospitalId":"1006",
+            "title":"石家庄市妇幼医院"
+        },
+        {
+            "hospitalId":"1011",
+            "title":"青岛市立医院"
+        }
+    ]
+}

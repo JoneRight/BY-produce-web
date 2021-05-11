@@ -1,0 +1,18 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "value":1,
+            "label":"单价质检规则"
+        },
+        {
+            "value":2,
+            "label":"数量质检规则"
+        },
+        {
+            "value":3,
+            "label":"质检规则"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "message": "",
+    "data": [
+        {
+            "errorkey": "hospitalNum",
+            "errorValue": "NB00012",
+            "dataList": [
+                {
+                    "id": "id1",
+                    "hospitalNum": "NB001",
+                    "hospitalName": "青岛医院",
+                    "address": "青岛"
+                },
+                {
+                    "id": "id2",
+                    "hospitalNum": "NB002",
+                    "hospitalName": "市立医院",
+                    "address": "市里"
+                }
+            ]
+        },
+        {
+            "errorkey": "hospitalName",
+            "errorValue": "青岛市立医院",
+            "dataList": [
+                {
+                    "id": "001",
+                    "hospitalNum": "NB002",
+                    "hospitalName": "市立医院",
+                    "thraddressee": "市里",
+                    "people":"张三",
+                    "phone":"15112346589",
+                    "hospitalNum1": "NB002",
+                    "hospitalName1": "市立医院",
+                    "thraddressee1": "市里",
+                    "people1":"张三",
+                    "phone1":"15112346589",
+                    "hospitalNum2": "NB002",
+                    "hospitalName2": "市立医院",
+                    "thraddressee2": "市里",
+                    "people2":"张三",
+                    "phone2":"15112346589",
+                    "hospitalNum3": "NB002",
+                    "hospitalName3": "市立医院",
+                    "thraddressee3": "市里",
+                    "people3":"张三",
+                    "phone3":"15112346589",
+                    "hospitalNum13": "NB002",
+                    "hospitalName13": "市立医院",
+                    "thraddressee13": "市里",
+                    "people13":"张三",
+                    "phone13":"15112346589"
+                },
+                {
+                    "id": "002",
+                    "hospitalNum": "NB003",
+                    "hospitalName": "青岛妇幼医院",
+                    "thraddressee": "市中心",
+                    "people":"李四",
+                    "phone":"15112346589"
+                },
+                {
+                    "id": "003",
+                    "hospitalNum": "NB004",
+                    "hospitalName": "青岛市立医院",
+                    "thraddressee": "青岛",
+                    "people":"张三",
+                    "phone":"15112346589"
+                }
+            ]
+        }
+    ]
+}

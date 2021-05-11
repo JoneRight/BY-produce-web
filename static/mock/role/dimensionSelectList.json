@@ -1,0 +1,39 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "Id": "1",
+            "dimensionName": "0.9%氯化钠注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "14",
+            "dimensionName": "硫酸阿托品注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "15",
+            "dimensionName": "前列地尔注射液",
+            "dimensionType":"药品名称"
+        },
+        {
+            "Id": "18",
+            "dimensionName": "生产企业A",
+            "dimensionType":"药品生产企业"
+        },
+        {
+            "Id": "19",
+            "dimensionName": "生产企业B",
+            "dimensionType":"药品生产企业"
+        },
+        {
+            "Id": "20",
+            "dimensionName": "生产企业C",
+            "dimensionType":"药品生产企业"
+        }
+    ]
+}        
+
+
+        

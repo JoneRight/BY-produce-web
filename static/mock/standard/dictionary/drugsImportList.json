@@ -1,0 +1,47 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "recordId": "青岛市",
+                    "country": "山东省",
+                    "companyName": "",
+                    "companyAddress": "",
+                    "registerNumber": "",
+                    "certificationDate": "",
+                    "invalidDate": "",
+                    "subpackApproval": "",
+                    "subpackApprovalDate": "",
+                    "subpackExpirationDate": "",
+                    "subpackCompany": "",
+                    "subpackCompanyAddress": "",
+                    "importTestChinese": "",
+                    "memo": "新增"
+                },{
+                    "number": "01",
+                    "recordId": "青岛市",
+                    "country": "山东省",
+                    "companyName": "",
+                    "companyAddress": "",
+                    "registerNumber": "",
+                    "certificationDate": "",
+                    "invalidDate": "",
+                    "subpackApproval": "",
+                    "subpackApprovalDate": "",
+                    "subpackExpirationDate": "",
+                    "subpackCompany": "",
+                    "subpackCompanyAddress": "",
+                    "importTestChinese": "",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

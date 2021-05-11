@@ -1,0 +1,25 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "number": "01",
+                    "name": "",
+                    "cityName":"",
+                    "memo": "新增"
+                },{
+                    "number": "01",
+                    "name": "",
+                    "cityName":"",
+                    "memo": "新增"
+                }
+            ]
+        }
+    ]    
+}

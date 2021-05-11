@@ -1,0 +1,144 @@
+{
+    "code":0,
+    "message":"",
+    "data":[
+        {
+            "currentPageIndex":1,
+            "totalPageCount":5,
+            "totalItemCount":43,
+            "pageSize":10,
+            "dataList":[
+                {
+                    "id":"01",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院1",
+                    "province": "山东1",
+                    "city": "青岛1",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"02",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院2",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"03",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院3",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"04",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院4",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"05",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院5",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"06",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院6",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"07",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院7",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"08",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院8",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"09",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院9",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                },
+                {
+                    "id":"10",
+                    "hospitalNum": "YY0001",
+                    "hospitalName": "青岛市立医院10",
+                    "province": "山东",
+                    "city": "青岛",
+                    "dataType": "购药",
+                    "fileName": "文件A",
+                    "repeatFile": "文件A",
+                    "fileDate": "2018-05",
+                    "repeatRate": "15%",
+                    "repeatType": "文件内重复"
+                }
+            ]
+        }
+    ]    
+}
